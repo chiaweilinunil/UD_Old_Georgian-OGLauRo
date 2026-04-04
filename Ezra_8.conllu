@@ -1,0 +1,1106 @@
+# sentence_id = 8_1
+# text = და ესე არიან მფლობელნი მამათმთავართანი, რომელნი გამოსრულ იყვნეს ჩემ თანა შარავანდედებასა არტახშეს მეფისასა და მეფისა მის ბაბილონელთაჲსა:
+1	და	და	CCONJ	Cj_Coord	_	3	cc	3:cc	LMSeg:და|Translit=da
+2	ესე	ესე	PRON	Pron_Dem_Nom_Pl	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	3:nsubj	LMSeg:ესე|Translit=ese
+3	არიან	ყოფა	VERB	V_Pres_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	LMSeg:ყოფა|Translit=arian
+4	მფლობელნი	მფლობელი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	0	root	0:root	LMSeg:მფლობელი|Translit=mplobelni
+5	მამათმთავართანი	მამათმთავარი	NOUN	N_Gen_Pl_Nom_Pl	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Plur	4	nmod	4:nmod	LMSeg:მამათმთავარი|Translit=mamatmtavartani
+6	,	,	PUNCT	Punct_Comma	_	9	punct	9:punct	LMSeg:,
+7	რომელნი	რომელი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	9:nsubj	LMSeg:რომელი|Translit=romelni
+8	გამოსრულ	გამოსლვა	VERB	V_PastPart_Abs	Case=Abs|Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	LMSeg:გამო·სლვა|Translit=gamosrul
+9	იყვნეს	ყოფა	VERB	V_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	8	cop	8:cop	LMSeg:ყოფა|Translit=iq̇vnes
+10	ჩემ	მე	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	8	obl	8:obl	LMSeg:მე|Translit=chem
+11	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	10	case	10:case	LMSeg:თანა|Translit=tana
+12	შარავანდედებასა	შარავანდედება	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	obl	8:obl	LMSeg:შარავანდედება|Translit=šaravandedebasa
+13	არტახშეს	არტახშეს	PROPN	N_Prop	NameType=Giv	14	nmod	14:nmod	LMSeg:არტახშეს|Translit=arṭaxšes
+14	მეფისასა	მეფე	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	12	nmod	12:nmod	LMSeg:მეფე|Translit=mepisasa
+15	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+16	მეფისა	მეფე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	14	conj	14:conj	LMSeg:მეფე|Translit=mepisa
+17	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	16	det	16:det	LMSeg:იგი|Translit=mis
+18	ბაბილონელთაჲსა	ბაბილონელი	PROPN	N_Prop_Gen_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing|NameType=Nat	16	nmod	16:nmod	LMSeg:ბაბილონელ[ი]|Translit=babiloneltaysa
+19	:	:	PUNCT	Punct_Colon	_	3	punct	3:punct	LMSeg::
+
+# sentence_id = 8_2
+# text = ძეთაგან ფინეეზისთაჲ გერსონ; და ძეთა მათგან ითამარისთაჲ დანიელ; და ძეთა მათგან დავითისთაჲ ატუუს;
+1-2	ძეთაგან	_	_	_	_	_	_	_	_
+1	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	4	nmod	4:nmod	LMSeg:ძე|Translit=ʒeta
+2	გან	გან	ADP	Post	AdpType=Post|Case=Gen	1	case	1:case	LMSeg:გან|Translit=gan
+3	ფინეეზისთაჲ	ფინეეზი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	1	nmod	1:nmod	LMSeg:ფინეეზ[ი]|Translit=pineezistay
+4	გერსონ	გერსონი	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:გერსონ[ი]|Translit=gerson
+5	;	;	PUNCT	Punct_Semicolon	_	4	punct	4:punct	LMSeg:;
+6	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+7	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	11	nmod	11:nmod	LMSeg:ძე|Translit=ʒeta
+8-9	მათგან	_	_	_	_	_	_	_	_
+8	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=mat
+9	გან	გან	ADP	Post	AdpType=Post|Case=Gen	8	case	8:case	LMSeg:გან|Translit=gan
+10	ითამარისთაჲ	ითამარი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	7	nmod	7:nmod	LMSeg:ითამარ[ი]|Translit=itamaristay
+11	დანიელ	დანიელ	PROPN	N_Prop	NameType=Giv	4	conj	4:conj	LMSeg:დანიელ|Translit=daniel
+12	;	;	PUNCT	Punct_Semicolon	_	11	punct	11:punct	LMSeg:;
+13	და	და	CCONJ	Cj_Coord	_	18	cc	18:cc	LMSeg:და|Translit=da
+14	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	18	nmod	18:nmod	LMSeg:ძე|Translit=ʒeta
+15-16	მათგან	_	_	_	_	_	_	_	_
+15	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	14	det	14:det	LMSeg:იგი|Translit=mat
+16	გან	გან	ADP	Post	AdpType=Post|Case=Gen	15	case	15:case	LMSeg:გან|Translit=gan
+17	დავითისთაჲ	დავითი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	14	nmod	14:nmod	LMSeg:დავით[ი]|Translit=davitistay
+18	ატუუს	ატუუს	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	4	conj	4:conj	LMSeg:ატუუს|Translit=aṭuus
+19	;	;	PUNCT	Punct_Semicolon	_	18	punct	18:punct	LMSeg:;
+
+# sentence_id = 8_3
+# text = და ძეთა მათგან ზაქარიაჲსთა და ძეთა მათგან ფოროსისთაჲ ზაქარია და მის თანა ასერგასის კაც;
+1	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	11	nmod	11:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ზაქარიაჲსთა	ზაქარია	PROPN	N_Prop_Gen_Sg_Gen_Pl	Case=Gen|Case[sauf]=Gen|Number=Sing|Number[sauf]=Plur|NameType=Giv	2	nmod	2:nmod	LMSeg:ზაქარია|Translit=zakariaysta
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	2	conj	2:conj	LMSeg:ძე|Translit=ʒeta
+8-9	მათგან	_	_	_	_	_	_	_	_
+8	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=mat
+9	გან	გან	ADP	Post	AdpType=Post|Case=Gen	8	case	8:case	LMSeg:გან|Translit=gan
+10	ფოროსისთაჲ	ფოროსი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	7	nmod	7:nmod	LMSeg:ფოროს[ი]|Translit=porosistay
+11	ზაქარია	ზაქარია	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ზაქარია|Translit=zakaria
+12	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+13	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	16	obl	16:obl	LMSeg:იგი|Translit=mis
+14	თანა	თანა	ADP	Pre	AdpType=Post|Case=Gen	13	case	13:case	LMSeg:თანა|Translit=tana
+15	ასერგასის	ასერგასისი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ასერგასის[ი]|Translit=asergasis
+16	კაც	კაცი	NOUN	N_Abs_Sg	Case=Abs|Number=Sing	11	conj	11:conj	LMSeg:კაც[ი]|Translit=ḳac
+17	;	;	PUNCT	Punct_Semicolon	_	11	punct	11:punct	LMSeg:;
+
+# sentence_id = 8_4
+# text = ძეთა მათგან ფაათმოაბ ელიანა, ძე ზარეაჲსი, და მის თანა ორასი კაცთა მათგანი;
+1	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	5	nmod	5:nmod	LMSeg:ძე|Translit=ʒeta
+2-3	მათგან	_	_	_	_	_	_	_	_
+2	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	1	det	1:det	LMSeg:იგი|Translit=mat
+3	გან	გან	ADP	Post	AdpType=Post|Case=Gen	2	case	2:case	LMSeg:გან|Translit=gan
+4	ფაათმოაბ	ფაათმოაბ	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	1	nmod	1:nmod	LMSeg:ფაათმოაბ|Translit=paatmoab
+5	ელიანა	ელიანა	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ელიანა|Translit=eliana
+6	,	,	PUNCT	Punct_Comma	_	7	punct	7:punct	LMSeg:,
+7	ძე	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	5	appos	5:appos	LMSeg:ძე|Translit=ʒe
+8	ზარეაჲსი	ზარეა	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	7	nmod	7:nmod	LMSeg:ზარეა|Translit=zareaysi
+9	,	,	PUNCT	Punct_Comma	_	15	punct	15:punct	LMSeg:,
+10	და	და	CCONJ	Cj_Coord	_	15	cc	15:cc	LMSeg:და|Translit=da
+11	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	15	obl	15:obl	LMSeg:იგი|Translit=mis
+12	თანა	თანა	ADP	Pre	AdpType=Post|Case=Gen	11	case	11:case	LMSeg:თანა|Translit=tana
+13	ორასი	ორასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	15	nummod	15:nummod	LMSeg:ორასი|Translit=orasi
+14	კაცთა	კაცი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	15	nmod	15:nmod	LMSeg:კაცი|Translit=ḳacta
+15-16	მათგანი	_	_	_	_	_	_	_	_
+15	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	5	conj	5:conj	LMSeg:იგი|Translit=mat
+16	განი	გან	ADP	Post	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	15	case	15:case	LMSeg:გან|Translit=gan
+17	;	;	PUNCT	Punct_Semicolon	_	5	punct	5:punct	LMSeg:;
+
+# sentence_id = 8_5
+# text = და ძეთა მათგან ზათუველ სექენია, ძჱ აზილისი, და მათ თანა სამასი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ზათუველ	ზათუველ	PROPN	N_Prop	NameType=Giv	6	appos	6:appos	LMSeg:ზათუველ|Translit=zatuvel
+6	სექენია	სექენია	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:სექენია|Translit=sekenia
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒē
+9	აზილისი	აზილი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:აზილ[ი]|Translit=azilisi
+10	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+12	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Dat|Number=Plur|PronType=Dem	16	obl	16:obl	LMSeg:იგი|Translit=mat
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	სამასი	სამასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:სამასი|Translit=samasi
+15	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+16-17	მათგანი	_	_	_	_	_	_	_	_
+16	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	6	conj	6:conj	LMSeg:იგი|Translit=mat
+17	განი	გან	ADP	Post	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	16	case	16:case	LMSeg:გან|Translit=gan
+18	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_6
+# text = და ძეთა მათგან ადეაჲსთაჲ ობენ, ძე იონათანისი, და მის თანა ერგასის კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ადეაჲსთაჲ	ადეა	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ადეა|Translit=adeaystay
+6	ობენ	ობენ	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ობენ|Translit=oben
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძე	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒe
+9	იონათანისი	იონათანი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:იონათან[ი]|Translit=ionatanisi
+10	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+12	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl	LMSeg:იგი|Translit=mis
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	ერგასის	ერგასისი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ერგასის[ი]|Translit=ergasis
+15	კაცთა	კაცი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+16-17	მათგანი	_	_	_	_	_	_	_	_
+16	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+17	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	16	case	16:case	LMSeg:გან[ი]|Translit=gani
+18	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_7
+# text = და ძეთა მათგან ელამისთაჲ ესაია, ძე ათალიაჲსი, და მის თანა სამეოცდაათი კაცთა მათგანი.
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ელამისთაჲ	ელამი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ელამ[ი]|Translit=elamistay
+6	ესაია	ესაია	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ესაია|Translit=esaia
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძე	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒe
+9	ათალიაჲსი	ათალია	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:ათალია|Translit=ataliaysi
+10	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+12	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl	LMSeg:იგი|Translit=mis
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	სამეოცდაათი	სამეოცდაათი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:სამეოცდაათი|Translit=sameocdaati
+15	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+16-17	მათგანი	_	_	_	_	_	_	_	_
+16	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+17	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	16	case	16:case	LMSeg:გან[ი]|Translit=gani
+18	.	.	PUNCT	Punct_FullStop	_	6	punct	6:punct	LMSeg:.
+
+# sentence_id = 8_8
+# text = და ძეთა მათგან საფატისთაჲ ზამბდია, ძე მიქაელისი, და მის თანა სამეოცდაათი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	საფატისთაჲ	საფატი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:საფატ[ი]|Translit=sapaṭistay
+6	ზამბდია	ზამბდია	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	0	root	0:root	LMSeg:ზამბდია|Translit=zambdia
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძე	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒe
+9	მიქაელისი	მიქაელი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:მიქაელ[ი]|Translit=mikaelisi
+10	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+12	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	nmod	16:nmod	LMSeg:იგი|Translit=mis
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	სამეოცდაათი	სამეოცდაათი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:სამეოცდაათი|Translit=sameocdaati
+15	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+16-17	მათგანი	_	_	_	_	_	_	_	_
+16	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+17	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	16	case	16:case	LMSeg:გან[ი]|Translit=gani
+18	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_9
+# text = და ძეთა მათგან იოაბადია, ძჱ იეელისი, და მის თანა ორას და თორმეტ კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	იოაბადია	იოაბადია	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	6	nmod	6:nmod	LMSeg:იოაბადია|Translit=ioabadia
+6	,	,	PUNCT	Punct_Comma	_	7	punct	7:punct	LMSeg:,
+7	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	0	root	0:root	LMSeg:ძე|Translit=ʒē
+8	იეელისი	იეელი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	7	nmod	7:nmod	LMSeg:იეელ[ი]|Translit=ieelisi
+9	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+10	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+11	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	nmod	16:nmod	LMSeg:იგი|Translit=mis
+12	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	11	case	11:case	LMSeg:თანა|Translit=tana
+13	ორას	ორასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ორას[ი]|Translit=oras
+14	და	და	CCONJ	Cj_Coord	_	15	cc	15:cc	LMSeg:და|Translit=da
+15	თორმეტ	თორმეტი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	13	conj	13:conj	LMSeg:თორმეტ[ი]|Translit=tormeṭ
+16	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	17	nmod	17:nmod	LMSeg:კაცი|Translit=ḳacta
+17-18	მათგანი	_	_	_	_	_	_	_	_
+17	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	conj	7:conj	LMSeg:იგი|Translit=mat
+18	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case=Nom	17	case	17:case	LMSeg:გან[ი]|Translit=gani
+19	;	;	PUNCT	Punct_Semicolon	_	7	punct	7:punct	LMSeg:;
+
+# sentence_id = 8_10
+# text = და ძეთა მათგან ბაანისთაჲ სელიმიუთ, ძჱ იოსეფიაჲსი, და მის თანა ას სამეოცი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ბაანისთაჲ	ბაანი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ბაან[ი]|Translit=baanistay
+6	სელიმიუთ	სელიმიუთი	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:სელიმიუთ[ი]|Translit=selimiut
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒē
+9	იოსეფიაჲსი	იოსეფია	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:იოსეფია|Translit=iosepiaysi
+10	,	,	PUNCT	Punct_Comma	_	17	punct	17:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
+12	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	nmod	17:nmod	LMSeg:იგი|Translit=mis
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	ას	ასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	17	nummod	17:nummod	LMSeg:ას[ი]|Translit=as
+15	სამეოცი	სამეოცი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	14	flat	14:flat	LMSeg:სამეოცი|Translit=sameoci
+16	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	17	nmod	17:nmod	LMSeg:კაცი|Translit=ḳacta
+17-18	მათგანი	_	_	_	_	_	_	_	_
+17	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+18	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case=Nom	17	case	17:case	LMSeg:გან[ი]|Translit=gani
+19	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_11
+# text = და ძეთა მათგან ბაბეისთაჲ ზაქარია, ძჱ ბებესი, და მის თანა ოცდარვაჲ კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ბაბეისთაჲ	ბაბეი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ბაბე[ი]|Translit=babeistay
+6	ზაქარია	ზაქარია	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ზაქარია|Translit=zakaria
+7	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+8	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	appos	6:appos	LMSeg:ძე|Translit=ʒē
+9	ბებესი	ბებე	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	8	nmod	8:nmod	LMSeg:ბებე|Translit=bebesi
+10	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+12	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl	LMSeg:იგი|Translit=mis
+13	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	12	case	12:case	LMSeg:თანა|Translit=tana
+14	ოცდარვაჲ	ოცდარვა	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ოცდარვა[ჲ]|Translit=ocdarvay
+15	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+16-17	მათგანი	_	_	_	_	_	_	_	_
+16	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+17	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case[sauf]=Nom	16	case	16:case	LMSeg:გან[ი]|Translit=gani
+18	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_12
+# text = და ძეთა მათგან ადონიკამისთაჲ და აზგადისთაჲ იოენან, ძჱ ზაკატანისი, და მის თანა ას და ათი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	9	cc	9:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	9	nmod	9:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ადონიკამისთაჲ	ადონიკამი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ადონიკამ[ი]|Translit=adoniḳamistay
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	აზგადისთაჲ	აზგადი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	5	conj	5:conj	LMSeg:აზგად[ი]|Translit=azgadistay
+8	იოენან	იოენან	PROPN	N_Prop	NameType=Giv	9	nmod	9:nmod	LMSeg:იოენან|Translit=ioenan
+9	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+10	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	0	root	0:root	LMSeg:ძე|Translit=ʒē
+11	ზაკატანისი	ზაკატანი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	10	nmod	10:nmod	LMSeg:ზაკატან[ი]|Translit=zaḳaṭanisi
+12	,	,	PUNCT	Punct_Comma	_	19	punct	19:punct	LMSeg:,
+13	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+14	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl	LMSeg:იგი|Translit=mis
+15	თანა	თანა	ADP	Pre	AdpType=Post	14	case	14:case	LMSeg:თანა|Translit=tana
+16	ას	ასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	19	nummod	19:nummod	LMSeg:ას[ი]|Translit=as
+17	და	და	CCONJ	Cj_Coord	_	18	cc	18:cc	LMSeg:და|Translit=da
+18	ათი	ათი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	conj	16:conj	LMSeg:ათი|Translit=ati
+19	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	20	nmod	20:nmod	LMSeg:კაცი|Translit=ḳacta
+20-21	მათგანი	_	_	_	_	_	_	_	_
+20	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	conj	10:conj	LMSeg:იგი|Translit=mat
+21	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Sing	20	case	20:case	LMSeg:გან[ი]|Translit=gani
+22	;	;	PUNCT	Punct_Semicolon	_	10	punct	10:punct	LMSeg:;
+
+# sentence_id = 8_13_1
+# text = და ძეთა მათგან ადონიკამისთაჲ ესქატი.
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post	3	case	3:case	LMSeg:გან|Translit=gan
+5	ადონიკამისთაჲ	ადონიკამი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ადონიკამ[ი]|Translit=adoniḳamistay
+6	ესქატი	ესქატი	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	0	root	0:root	LMSeg:ესქატი|Translit=esḳaṭi
+7	.	.	PUNCT	Punct_FullStop	_	6	punct	6:punct	LMSeg:.
+
+# sentence_id = 8_13_2
+# text = და ესე არს სახელები ამათ ყოველთაჲ: ელიფალათ, იეიელ და სამეაჲ, და მის თანა სამეოცი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	3	cc	3:cc	LMSeg:და|Translit=da
+2	ესე	ესე	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	LMSeg:ესე|Translit=ese
+3	არს	ყოფა	VERB	V_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	LMSeg:ყოფა|Translit=ars
+4	სახელები	სახელი	NOUN	N_Nom_Pleb	Case=Nom|Number=Sing	0	root	0:root	LMSeg:სახელი|Translit=saxelebi
+5	ამათ	ესე	PRON	Pron_Dem_Obl_Pl	Case=Gen|Number=Plur|PronType=Dem	6	det	6:det	LMSeg:ესე|Translit=amat
+6	ყოველთაჲ	ყოველი	PRON	Pron_Tot_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing|PronType=Tot	4	nmod	4:nmod	LMSeg:ყოველ[ი]|Translit=q̇oveltay
+7	:	:	PUNCT	Punct_Colon	_	8	punct	8:punct	LMSeg::
+8	ელიფალათ	ელიფალათი	PROPN	N_Prop	NameType=Giv	4	appos	4:appos	LMSeg:ელიფალათ[ი]|Translit=elipalat
+9	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+10	იეიელ	იეიელი	PROPN	N_Prop	NameType=Giv	8	conj	8:conj	LMSeg:იეიელ[ი]|Translit=ieiel
+11	და	და	CCONJ	Cj_Coord	_	12	cc	12:cc	LMSeg:და|Translit=da
+12	სამეაჲ	სამეაჲ	PROPN	N_Prop	NameType=Giv	8	conj	8:conj	LMSeg:სამეა|Translit=sameay
+13	,	,	PUNCT	Punct_Comma	_	20	punct	20:punct	LMSeg:,
+14	და	და	CCONJ	Cj_Coord	_	20	cc	20:cc	LMSeg:და|Translit=da
+15	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	20	obl	20:obl	LMSeg:იგი|Translit=mis
+16	თანა	თანა	ADP	Pre	AdpType=Post|Case=Dat	15	case	15:case	LMSeg:თანა|Translit=tana
+17	სამეოცი	სამეოცი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	20	nummod	20:nummod	LMSeg:სამეოცი|Translit=sameoci
+18	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	20	nmod	20:nmod	LMSeg:კაცი|Translit=ḳacta
+19-20	მათგანი	_	_	_	_	_	_	_	_
+19	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	conj	8:conj	LMSeg:იგი|Translit=mat
+20	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Nom	19	case	19:case	LMSeg:გან[ი]|Translit=gani
+21	;	;	PUNCT	Punct_Semicolon	_	3	punct	3:punct	LMSeg:;
+
+# sentence_id = 8_14
+# text = და ძეთა მათგან ბაგვისთაჲ ურთაჲ და იზბუდ, და მის თანა სამეოცდაათი კაცთა მათგანი;
+1	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+2	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	6	nmod	6:nmod	LMSeg:ძე|Translit=ʒeta
+3-4	მათგან	_	_	_	_	_	_	_	_
+3	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	2:det	LMSeg:იგი|Translit=mat
+4	გან	გან	ADP	Post	AdpType=Post|Case=Gen	3	case	3:case	LMSeg:გან|Translit=gan
+5	ბაგვისთაჲ	ბაგვი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	nmod	2:nmod	LMSeg:ბაგვ[ი]|Translit=bagvistay
+6	ურთაჲ	ურთა	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	0	root	0:root	LMSeg:ურთა|Translit=urtay
+7	და	და	CCONJ	Cj_Coord	_	8	cc	8:cc	LMSeg:და|Translit=da
+8	იზბუდ	იზბუდ	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	6	conj	6:conj	LMSeg:იზბუდ|Translit=izbud
+9	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+10	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+11	მის	იგი	PRON	Pron_Pers_3Sg_Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl	LMSeg:იგი|Translit=mis
+12	თანა	თანა	ADP	Pre	AdpType=Post	11	case	11:case	LMSeg:თანა|Translit=tana
+13	სამეოცდაათი	სამეოცდაათი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:სამეოცდაათი|Translit=sameocdaati
+14	კაცთა	კაცი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	16	nmod	16:nmod	LMSeg:კაცი|Translit=ḳacta
+15-16	მათგანი	_	_	_	_	_	_	_	_
+15	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	conj	6:conj	LMSeg:იგი|Translit=mat
+16	განი	განი	ADP	Post_Nom	AdpType=Post|Case=Nom	15	case	15:case	LMSeg:გან[ი]|Translit=gani
+17	;	;	PUNCT	Punct_Semicolon	_	6	punct	6:punct	LMSeg:;
+
+# sentence_id = 8_15_1
+# text = და შევკრიბენ იგინი კიდესა მდინარისასა, რომელი ვალს იევის, და დავდევით მუნ სავანე სამ დღჱ,
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	შევკრიბენ	კრება	VERB	V_Act_Aor_Pv_S:1Sg_O:3Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:შე·კრება|Translit=ševḳriben
+3	იგინი	იგი	PRON	Pron_Pers_3Pl_Nom	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	obj	2:obj	LMSeg:იგი|Translit=igini
+4	კიდესა	კიდე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	2	obl	2:obl	LMSeg:კიდე|Translit=ḳidesa
+5	მდინარისასა	მდინარე	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	4	nmod	4:nmod	LMSeg:მდინარე|Translit=mdinarisasa
+6	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+7	რომელი	რომელი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	8:nsubj	LMSeg:რომელი|Translit=romeli
+8	ვალს	სლვა	VERB	V_Act_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	LMSeg:სლვა|Translit=vals
+9	იევის	იევი	PROPN	N_Prop_Dat_Sg	Case=Dat|Number=Sing|NameType=Geo	8	obl	8:obl	LMSeg:იევ[ი]|Translit=ievis
+10	,	,	PUNCT	Punct_Comma	_	12	punct	12:punct	LMSeg:,
+11	და	და	CCONJ	Cj_Coord	_	12	cc	12:cc	LMSeg:და|Translit=da
+12	დავდევით	დადება	VERB	V_Act_Iter2_Pv_S:1Pl	Aspect=Iter|Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:და·დება|Translit=davdevit
+13	მუნ	მუნ	ADV	Adv_Loc	AdvType=Loc	12	advmod	12:advmod	LMSeg:მუნ|Translit=mun
+14	სავანე	სავანე	NOUN	N_Abs_Sg	Case=Abs|Number=Sing	12	obj	12:obj	LMSeg:სავანე|Translit=savane
+15	სამ	სამი	NUM	Num_Dat_Sg	Case=Dat|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:სამ[ი]|Translit=sam
+16	დღჱ	დღე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	12	obl	12:obl	LMSeg:დღე|Translit=dġē
+17	,	,	PUNCT	Punct_Comma	_	2	punct	2:punct	LMSeg:,
+
+# sentence_id = 8_15_2
+# text = და სიმრავლე იგი ერისაჲ მის და ძეთა მათგან მღდელთაჲ და ძეთა მათგან ლევიტელთაჲ არავინ ვპვენ.
+1	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
+2	სიმრავლე	სიმრავლე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	17	obj	17:obj	LMSeg:სიმრავლე|Translit=simravle
+3	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	2	det	2:det	LMSeg:იგი|Translit=igi
+4	ერისაჲ	ერი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	2	nmod	2:nmod	LMSeg:ერ[ი]|Translit=erisay
+5	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	4	det	4:det	LMSeg:იგი|Translit=mis
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	2	conj	2:conj	LMSeg:ძე|Translit=ʒeta
+8-9	მათგან	_	_	_	_	_	_	_	_
+8	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	det	7:det	LMSeg:იგი|Translit=mat
+9	გან	გან	ADP	Post	AdpType=Post|Case=Gen	8	case	8:case	LMSeg:გან|Translit=gan
+10	მღდელთაჲ	მღდელი	NOUN	N_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing	7	nmod	7:nmod	LMSeg:მღდელ[ი]|Translit=mġdeltay
+11	და	და	CCONJ	Cj_Coord	_	12	cc	12:cc	LMSeg:და|Translit=da
+12	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	2	conj	2:conj	LMSeg:ძე|Translit=ʒeta
+13-14	მათგან	_	_	_	_	_	_	_	_
+13	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	det	12:det	LMSeg:იგი|Translit=mat
+14	გან	გან	ADP	Post	AdpType=Post|Case=Gen	13	case	13:case	LMSeg:გან|Translit=gan
+15	ლევიტელთაჲ	ლევიტელი	PROPN	N_Prop_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing|NameType=Nat	12	nmod	12:nmod	LMSeg:ლევიტელ[ი]|Translit=leviṭeltay
+16	არავინ	არავინ	PRON	Pron_Neg_Nom_Sg	Case=Nom|Number=Sing|PronType=Neg	2	det	2:det	LMSeg:არავინ|Translit=aravin
+17	ვპვენ	პოვნა	VERB	V_Act_Aor_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:პოვნა|Translit=vpven
+18	.	.	PUNCT	Punct_FullStop	_	17	punct	17:punct	LMSeg:.
+
+# sentence_id = 8_16
+# text = და მივავლინენ ელიაზარისა და არიელისა და სემისა აონაამ და ზარიბ და ზეპანათან და ზაქარია და მესოლამ და იოარიბ და ელმათან,
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	მივავლინენ	მივლინება	VERB	V_Act_Aor_Pv_S:1Sg_O:3Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მი·ვლინება|Translit=mivavlinen
+3	ელიაზარისა	ელიაზარი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	2	obl	2:obl	LMSeg:ელიაზარ[ი]|Translit=eliazarisa
+4	და	და	CCONJ	Cj_Coord	_	5	cc	5:cc	LMSeg:და|Translit=da
+5	არიელისა	არიელი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	3	conj	3:conj	LMSeg:არიელ[ი]|Translit=arielisa
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	სემისა	სემი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	3	conj	3:conj	LMSeg:სემ[ი]|Translit=semisa
+8	აონაამ	აონაამ	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:აონაამ|Translit=aonaam
+9	და	და	CCONJ	Cj_Coord	_	10	cc	10:cc	LMSeg:და|Translit=da
+10	ზარიბ	ზარიბ	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:ზარიბ|Translit=zarib
+11	და	და	CCONJ	Cj_Coord	_	12	cc	12:cc	LMSeg:და|Translit=da
+12	ზეპანათან	ზეპანათან	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:ზეპანათან|Translit=zepanat̕an
+13	და	და	CCONJ	Cj_Coord	_	14	cc	14:cc	LMSeg:და|Translit=da
+14	ზაქარია	ზაქარია	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:ზაქარია|Translit=zakaria
+15	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+16	მესოლამ	მესოლამ	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:მესოლამ|Translit=mesolam
+17	და	და	CCONJ	Cj_Coord	_	18	cc	18:cc	LMSeg:და|Translit=da
+18	იოარიბ	იოარიბ	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:იოარიბ|Translit=ioarib
+19	და	და	CCONJ	Cj_Coord	_	20	cc	20:cc	LMSeg:და|Translit=da
+20	ელმათან	ელმათან	PROPN	N_Prop	NameType=Giv	3	conj	3:conj	LMSeg:ელმათან|Translit=elmatan
+21	,	,	PUNCT	Punct_Comma	_	2	punct	2:punct	LMSeg:,
+
+# sentence_id = 8_17
+# text = და გულისხმა-უყავ და მოვიყვანენ იგინი წინაშე მთავართა მათ, რომელნი-იგი იყვნეს ადგილსა მეფასეთასა, და მივსცენ სიტყუანი პირსა მათსა, რაჲთა ეტყოდიან ძმათა თჳსთა თანა, ნათანიმ, რომელ-იგი არს ადგილსა მეფასეთასა, რომელნი-იგი მოიყვანნეს ჩუენდა, რომელნი-იგი შეასხმიდეს სახლსა ღმრთისა ჩუენისასა, ტაძარსა მას შინა უფლისასა.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	გულისხმა-უყავ	გულისხმა-ყოფა	VERB	V_Act_Aor_S:1Sg_IO:3Sg	Mood=Ind|Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:გულისხმა-ყოფა|Translit=gulisxma-uq̇av
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	მოვიყვანენ	მოყვანება	VERB	V_Act_Aor_Pv_SV_S:1Sg_O:3Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მო·ყვანება|Translit=moviq̇vanen
+5	იგინი	იგი	PRON	Pron_Pers_3Pl_Nom	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	obj	4:obj	LMSeg:იგი|Translit=igini
+6	წინაშე	წინაშე	ADP	Pre	AdpType=Prep|Case=Gen	7	case	7:case	LMSeg:წინაშე|Translit=cinaše
+7	მთავართა	მთავარი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	4	obl	4:obl	LMSeg:მთავარ[ი]|Translit=mtavarta
+8	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=mat
+9	,	,	PUNCT	Punct_Comma	_	11	punct	11:punct	LMSeg:,
+10	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	11:nsubj	LMSeg:რომელი-იგი|Translit=romelni-igi
+11	იყვნეს	ყოფა	VERB	V_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	7	acl:relcl	7:acl:relcl	LMSeg:ყოფა|Translit=iq̇vnes
+12	ადგილსა	ადგილი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	11	obl	11:obl	LMSeg:ადგილ[ი]|Translit=adgilsa
+13	მეფასეთასა	მეფასეთა	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	12	nmod	12:nmod	LMSeg:მეფასეთა|Translit=mepasetasa
+14	,	,	PUNCT	Punct_Comma	_	16	punct	16:punct	LMSeg:,
+15	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+16	მივსცენ	მიცემა	VERB	V_Act_Aor_Pv_S:1Sg_O:3Pl_IO3	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მი·ცემა|Translit=mivscen
+17	სიტყუანი	სიტყუა	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	16	obj	16:obj	LMSeg:სიტყუა|Translit=siṭq̇uani
+18	პირსა	პირი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	16	iobj	16:iobj	LMSeg:პირ[ი]|Translit=pirsa
+19	მათსა	იგი	PRON	Pron_Dem_Gen_Pl_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Plur|Number[sauf]=Sing|PronType=Dem	18	nmod	18:nmod	LMSeg:იგი|Translit=matsa
+20	,	,	PUNCT	Punct_Comma	_	22	punct	22:punct	LMSeg:,
+21	რაჲთა	რაჲთა	SCONJ	Cj_Sub	_	22	mark	22:mark	LMSeg:რაჲთა|Translit=rayta
+22	ეტყოდიან	თქუმა	VERB	V_SubjM_S:3Pl_IO:3	Aspect=Imp|Mood=Subj|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	16	advcl	16:advcl	LMSeg:თქუმა|Translit=eṭq̇odian
+23	ძმათა	ძმა	NOUN	N_Obl_Pl	Case=Dat|Number=Plur	22	iobj	22:iobj	LMSeg:ძმა|Translit=ʒmata
+24	თჳსთა	თჳსი	PRON	Pron_Poss_Gen_Sg_Obl_Pl	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Plur|PronType=Prs|Poss=Yes	23	nmod	23:nmod	LMSeg:თჳს[ი]|Translit=twist’a
+25	თანა	თანა	ADP	Post	AdpType=Post|Case=Dat	23	case	23:case	LMSeg:თანა|Translit=tana
+26	,	,	PUNCT	Punct_Comma	_	27	punct	27:punct	LMSeg:,
+27	ნათანიმ	ნათანიმ	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	23	appos	23:appos	LMSeg:ნათანიმ|Translit=natanim
+28	,	,	PUNCT	Punct_Comma	_	31	punct	31:punct	LMSeg:,
+29	რომელ-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	31	nsubj	31:nsubj	LMSeg:რომელი-იგი|Translit=romel-igi
+30	არს	ყოფა	VERB	V_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	27:acl:relcl	LMSeg:ყოფა|Translit=ars
+31	ადგილსა	ადგილი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	30	obl	30:obl	LMSeg:ადგილ[ი]|Translit=adgilsa
+32	მეფასეთასა	მეფასეთა	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	31	nmod	31:nmod	LMSeg:მეფასეთა|Translit=mepasetasa
+33	,	,	PUNCT	Punct_Comma	_	35	punct	35:punct	LMSeg:,
+34	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	35	obj	35:obj	LMSeg:რომელი-იგი|Translit=romelni-igi
+35	მოიყვანნეს	მოყვანება	VERB	V_Act_Aor_Subj_Pv_SV_S:3Pl_O:3Pl	Mood=Subj|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	23	acl:relcl	23:acl:relcl	LMSeg:მო·ყვანება|Translit=moiq̇vannes
+36	ჩუენდა	ჩუენ	PRON	Pron_Pers_1Pl_Adv	Case=All|Number=Plur|Person=1|PronType=Prs	35	obl	35:obl	LMSeg:ჩუენ|Translit=chuenda
+37	,	,	PUNCT	Punct_Comma	_	39	punct	39:punct	LMSeg:,
+38	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	39	nsubj	39:nsubj	LMSeg:რომელი-იგი|Translit=romelni-igi
+39	შეასხმიდეს	შესხმა	VERB	V_Act_Imp_Pv_AV_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	35:acl:relcl	LMSeg:შე·სხმა|Translit=šeasxmides
+40	სახლსა	სახლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	39	obl	39:obl	LMSeg:სახლ[ი]|Translit=saxlsa
+41	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	40	nmod	40:nmod	LMSeg:ღმერთ[ი]|Translit=ġmrtisa
+42	ჩუენისასა	ჩუენი	PRON	Pron_Poss_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing|PronType=Prs|Poss=Yes	41	nmod	41:nmod	LMSeg:ჩუენ[ი]|Translit=chuenisasa
+43	,	,	PUNCT	Punct_Comma	_	44	punct	44:punct	LMSeg:,
+44	ტაძარსა	ტაძარი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	39	obl	39:obl	LMSeg:ტაძარ[ი]|Translit=ṭaʒarsa
+45	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	44	det	44:det	LMSeg:იგი|Translit=mas
+46	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	44	case	44:case	LMSeg:შინა|Translit=šina
+47	უფლისასა	უფალი	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	44	nmod	44:nmod	LMSeg:უფალ[ი]|Translit=uplisasa
+48	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_18
+# text = და მოვიდეს ჩუენდა, რამეთუ იყო ჴელი ღმრთისა ჩუენისაჲ აღსამაღლებელად ჩუენ თანა მარადის ძეთა მათგან ლევიტელთაჲ და ძეთა მათგან ისრაელისათაჲ; და პირველად მოვიდეს ჩუენდა ძენი მისნი და ძმანი მისნი ათრვამეტ;
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	მოვიდეს	მოსლვა	VERB	V_Act_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მო·სლვა|Translit=movides
+3	ჩუენდა	ჩუენ	PRON	Pron_Pers_1Pl_All	Case=All|Number=Plur|Person=1|PronType=Prs	2	obl	2:obl	LMSeg:ჩუენ|Translit=chuenda
+4	,	,	PUNCT	Punct_Comma	_	6	punct	6:punct	LMSeg:,
+5	რამეთუ	რამეთუ	SCONJ	Cj_Sub	_	6	mark	6:mark	LMSeg:რამეთუ|Translit=rametu
+6	იყო	ყოფა	VERB	V_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	advcl	2:advcl	LMSeg:ყოფა|Translit=iq̇o
+7	ჴელი	ჴელი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	nsubj	6:nsubj	LMSeg:ჴელ[ი]|Translit=xeli
+8	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	7	nmod	7:nmod	LMSeg:ღმერთ[ი]|Translit=ġmrtisa
+9	ჩუენისაჲ	ჩუენი	PRON	Pron_Poss_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|PronType=Prs|Poss=Yes	8	nmod	8:nmod	LMSeg:ჩუენ[ი]|Translit=chuenisay
+10	აღსამაღლებელად	აღსამაღლებელი	ADJ	A_Part_FuturePart_Adv_Sg	Case=Adv|Number=Sing|Tense=Fut|VerbForm=Part	6	obl	6:obl	LMSeg:აღსამაღლებელ[ი]|Translit=aġsamaġlebelad
+11	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl_Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	obl	10:obl	LMSeg:ჩუენ|Translit=chuen
+12	თანა	თანა	ADP	Post	AdpType=Post|Case=Gen	11	case	11:case	LMSeg:თანა|Translit=tana
+13	მარადის	მარადის	ADV	Adv	AdvType=Tim	6	advmod	6:advmod	LMSeg:მარადის|Translit=maradis
+14	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	17	nmod	17:nmod	LMSeg:ძე|Translit=ʒeta
+15-16	მათგან	_	_	_	_	_	_	_	_
+15	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	14	det	14:det	LMSeg:იგი|Translit=mat
+16	გან	გან	ADP	Post	AdpType=Post|Case=Gen	15	case	15:case	LMSeg:გან|Translit=gan
+17	ლევიტელთაჲ	ლევიტელი	PROPN	N_Prop_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing|NameType=Nat	2	nsubj	2:nsubj	LMSeg:ლევიტელ[ი]|Translit=leviṭeltay
+18	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+19	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	22	nmod	22:nmod	LMSeg:ძე|Translit=ʒeta
+20-21	მათგან	_	_	_	_	_	_	_	_
+20	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	19	det	19:det	LMSeg:იგი|Translit=mat
+21	გან	გან	ADP	Post	AdpType=Post|Case=Gen	20	case	20:case	LMSeg:გან|Translit=gan
+22	ისრაელისათაჲ	ისრაელი	PROPN	N_Prop_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing|NameType=Geo	17	conj	17:conj	LMSeg:ისრაელ[ი]|Translit=israelisatay
+23	;	;	PUNCT	Punct_Semicolon	_	26	punct	26:punct	LMSeg:;
+24	და	და	CCONJ	Cj_Coord	_	26	cc	26:cc	LMSeg:და|Translit=da
+25	პირველად	პირველად	ADV	Adv	AdvType=Tim	26	advmod	26:advmod	LMSeg:პირველად|Translit=pirvelad
+26	მოვიდეს	მოსლვა	VERB	V_Act_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მო·სლვა|Translit=movides
+27	ჩუენდა	ჩუენ	PRON	Pron_Pers_1Pl_All	Case=All|Number=Plur|Person=1|PronType=Prs	26	obl	26:obl	LMSeg:ჩუენ|Translit=chuenda
+28	ძენი	ძე	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	26	nsubj	26:nsubj	LMSeg:ძე|Translit=ʒeni
+29	მისნი	მისი	PRON	Pron_Poss_3Sg_Nom_Pl	Case=Nom|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod	28:nmod	LMSeg:იგი|Translit=misni
+30	და	და	CCONJ	Cj_Coord	_	31	cc	31:cc	LMSeg:და|Translit=da
+31	ძმანი	ძმა	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	28	conj	28:conj	LMSeg:ძმა|Translit=ʒmani
+32	მისნი	მისი	PRON	Pron_Poss_3Sg_Nom_Pl	Case=Nom|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod	31:nmod	LMSeg:იგი|Translit=misni
+33	ათრვამეტ	ათრვამეტი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	28	nummod	28:nummod	LMSeg:ათრვამეტ[ი]|Translit=atrvameṭ
+34	;	;	PUNCT	Punct_Semicolon	_	2	punct	2:punct	LMSeg:;
+
+# sentence_id = 8_19
+# text = და ასებია და იესეა ძეთა მათგან მერარისთაჲ და ძმანი მისნი და ძენი მისნი ოც კაც.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	ასებია	ასებია	PROPN	N_Prop	NameType=Giv	0	root	0:root	LMSeg:ასებია|Translit=asebia
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	იესეა	იესეა	PROPN	N_Prop	NameType=Giv	2	conj	2:conj	LMSeg:იესეა|Translit=iesea
+5	ძეთა	ძე	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	8	nmod	8:nmod	LMSeg:ძე|Translit=ʒeta
+6-7	მათგან	_	_	_	_	_	_	_	_
+6	მათ	იგი	PRON	Pron_Pers_3Pl_Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	det	5:det	LMSeg:იგი|Translit=mat
+7	გან	გან	ADP	Post	AdpType=Post|Case=Gen	6	case	6:case	LMSeg:გან|Translit=gan
+8	მერარისთაჲ	მერარი	PROPN	N_Prop_Gen_Sg_Obl_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	2	appos	2:appos	LMSeg:მერარ[ი]|Translit=meraristay
+9	და	და	CCONJ	Cj_Coord	_	10	cc	10:cc	LMSeg:და|Translit=da
+10	ძმანი	ძმა	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	2	conj	2:conj	LMSeg:ძმა|Translit=ʒmani
+11	მისნი	მისი	PRON	Pron_Poss_3Sg_Nom_Pl	Case=Nom|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod	10:nmod	LMSeg:იგი|Translit=misni
+12	და	და	CCONJ	Cj_Coord	_	13	cc	13:cc	LMSeg:და|Translit=da
+13	ძენი	ძე	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	2	conj	2:conj	LMSeg:ძე|Translit=ʒeni
+14	მისნი	მისი	PRON	Pron_Poss_3Sg_Nom_Pl	Case=Nom|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod	13:nmod	LMSeg:იგი|Translit=misni
+15	ოც	ოცი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ოც[ი]|Translit=oc
+16	კაც	კაცი	NOUN	N_Abs_Sg	Case=Abs|Number=Sing	2	conj	2:conj	LMSeg:კაც[ი]|Translit=ḳac
+17	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_20_1
+# text = და ნათანისგანნი, რომელნი-იგი მისცნა დავითმან და მთავართა მათ მონებად განცდად ლევიტელთა მათ და ნათანიმ ორას და ოც.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2-3	ნათანისგანნი	_	_	_	_	_	_	_	_
+2	ნათანის	ნათანი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	0	root	0:root	LMSeg:ნათან[ი]|Translit=natanis
+3	განნი	განი	ADP	Post_Nom_Pl	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Plur	2	case	2:case	LMSeg:გან[ნი]|Translit=ganni
+4	,	,	PUNCT	Punct_Comma	_	6	punct	6:punct	LMSeg:,
+5	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	6	obj	6:obj	LMSeg:რომელი-იგი|Translit=romelni-igi
+6	მისცნა	მიცემა	VERB	V_Act_Aor_Pv_S:3Sg_O:3Pl_IO:3Sg	Mood=Ind|Number[iobj]=Sing|Number[obj]=Plur|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	acl:relcl	2:acl:relcl	LMSeg:მი·ცემა|Translit=miscna
+7	დავითმან	დავითი	PROPN	N_Prop_Erg_Sg	Case=Erg|Number=Sing|NameType=Giv	6	nsubj	6:nsubj	LMSeg:დავით[ი]|Translit=davitman
+8	და	და	CCONJ	Cj_Coord	_	9	cc	9:cc	LMSeg:და|Translit=da
+9	მთავართა	მთავარი	NOUN	N_Erg_Pl	Case=Erg|Number=Plur	7	conj	7:conj	LMSeg:მთავარ[ი]|Translit=mtavarta
+10	მათ	იგი	PRON	Pron_Dem_Obl_Pl	Case=Erg|Number=Plur|PronType=Dem	9	det	9:det	LMSeg:იგი|Translit=mat
+11	მონებად	მონება	VERB	V_Masd_Adv	Case=All|VerbForm=Vnoun	6	xcomp	6:xcomp	LMSeg:მონება|Translit=monebad
+12	განცდად	განცდა	VERB	V_Masd_Adv	Case=All|VerbForm=Vnoun	11	conj	11:conj	LMSeg:განცდა|Translit=gancdad
+13	ლევიტელთა	ლევიტელი	PROPN	N_Prop_Obl_Pl	Case=Gen|Number=Plur|NameType=Nat	12	obj	12:obj	LMSeg:ლევიტელ[ი]|Translit=leviṭelta
+14	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	13	det	13:det	LMSeg:იგი|Translit=mat
+15	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+16	ნათანიმ	ნათანიმ	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	2	conj	2:conj	LMSeg:ნათანიმ|Translit=natanim
+17	ორას	ორასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	16	nummod	16:nummod	LMSeg:ორას[ი]|Translit=oras
+18	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+19	ოც	ოცი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	17	conj	17:conj	LMSeg:ოც[ი]|Translit=oc
+20	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_20_2
+# text = და ყოველნივე შეკრბეს მსგავსად სახელისა მათისა.
+1	და	და	CCONJ	Cj_Coord	_	3	cc	3:cc	LMSeg:და|Translit=da
+2	ყოველნივე	ყოველივე	PRON	Pron_Tot_Nom_Pl	Case=Nom|Number=Plur|PronType=Tot	3	nsubj	3:nsubj	LMSeg:ყოველივე|Translit=q̇ovelnive
+3	შეკრბეს	შეკრება	VERB	V_Act_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:შე·კრება|Translit=šeḳrbes
+4	მსგავსად	მსგავსად	ADP	Pre	AdpType=Prep|Case=Gen	5	case	5:case	LMSeg:მსგავსად|Translit=msgavsad
+5	სახელისა	სახელი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	obl	3:obl	LMSeg:სახელ[ი]|Translit=saxelisa
+6	მათისა	იგი	PRON	Pron_Poss_Gen_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing|PronType=Prs|Poss=Yes	5	nmod	5:nmod	LMSeg:იგი|Translit=matisa
+7	.	.	PUNCT	Punct_FullStop	_	3	punct	3:punct	LMSeg:.
+
+# sentence_id = 8_21
+# text = და მივაწჳეთ მუნ მარხვაჲ კიდესა მის მდინარისასა ავუთაისსა, და ვილოცევდით წინაშე უფლისა, ღმრთისა ჩუენისა, და ვითხოვდით მისგან გზასა სიწრფოებისასა ჩუენთჳს და შვილთა ჩუენთათჳს და ყოვლისათჳს, რომელი იყო ჩუენ თანა.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	მივაწჳეთ	წუევა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მი·წუევა|Translit=mivac̣wiet
+3	მუნ	მუნ	ADV	Adv_Dem	PronType=Dem	2	advmod	2:advmod	LMSeg:მუნ|Translit=mun
+4	მარხვაჲ	მარხვა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	obj	2:obj	LMSeg:მარხვა|Translit=marxvay
+5	კიდესა	კიდე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	2	obl	2:obl	LMSeg:კიდე|Translit=k̇idesa
+6	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=mis
+7	მდინარისასა	მდინარე	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	5	nmod	5:nmod	LMSeg:მდინარე|Translit=mdinarisasa
+8	ავუთაისსა	ავუთაისი	PROPN	N_Prop_Dat_Sg	Case=Dat|Number=Sing|NameType=Geo	7	appos	7:appos	LMSeg:ავუთაის[ი]|Translit=avutayissa
+9	,	,	PUNCT	Punct_Comma	_	11	punct	11:punct	LMSeg:,
+10	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+11	ვილოცევდით	ლოცვა	VERB	V_Act_Imp_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Imp|VerbForm=Fin	2	conj	2:conj	LMSeg:ლოცვა|Translit=vilocevdit
+12	წინაშე	წინაშე	ADP	Pre	AdpType=Pre|Case=Gen	13	case	13:case	LMSeg:წინაშე|Translit=c̣inaše
+13	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	11	obl	11:obl	LMSeg:უფალ[ი]|Translit=uplisa
+14	,	,	PUNCT	Punct_Comma	_	15	punct	15:punct	LMSeg:,
+15	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	13	appos	13:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+16	ჩუენისა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod	15:nmod	LMSeg:ჩუენი|Translit=čuenisa
+17	,	,	PUNCT	Punct_Comma	_	19	punct	19:punct	LMSeg:,
+18	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+19	ვითხოვდით	თხოვა	VERB	V_Act_Imp_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Imp|VerbForm=Fin	2	conj	2:conj	LMSeg:თხოვა|Translit=vitxovdit
+20-21	მისგან	_	_	_	_	_	_	_	Translit=misgan
+20	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	19	obl	19:obl	LMSeg:იგი|Translit=mis
+21	გან	გან	ADP	Post	AdpType=Post|Case=Gen	20	case	20:case	LMSeg:გან|Translit=gan
+22	გზასა	გზა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	19	obj	19:obj	LMSeg:გზა|Translit=gzasa
+23	სიწრფოებისასა	სიწრფოება	NOUN	N_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing	22	nmod	22:nmod	LMSeg:სიწრფოება|Translit=sic̣rpoebisasa
+24-25	ჩუენთჳს	_	_	_	_	_	_	_	Translit=čuentwis
+24	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl_Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	19	obl	19:obl	LMSeg:ჩუენ|Translit=čuen
+25	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	24	case	24:case	LMSeg:თჳს|Translit=twis
+26	და	და	CCONJ	Cj_Coord	_	27	cc	27:cc	LMSeg:და|Translit=da
+27	შვილთა	შვილი	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	24	conj	24:conj	LMSeg:შვილ[ი]|Translit=švilta
+28-29	ჩუენთათჳს	_	_	_	_	_	_	_	Translit=čuentatwis
+28	ჩუენთა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Pl	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod	27:nmod	LMSeg:ჩუენი|Translit=čuenta
+29	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	28	case	28:case	LMSeg:თჳს|Translit=twis
+30	და	და	CCONJ	Cj_Coord	_	31	cc	31:cc	LMSeg:და|Translit=da
+31-32	ყოვლისათჳს	_	_	_	_	_	_	_	Translit=q̇ovlisatwis
+31	ყოვლისა	ყოველი	PRON	Pron_Tot_Gen_Sg	Case=Gen|Number=Sing|PronType=Tot	24	conj	24:conj	LMSeg:ყოველ[ი]|Translit=q̇ovlisa
+32	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	31	case	31:case	LMSeg:თჳს|Translit=twis
+33	,	,	PUNCT	Punct_Comma	_	35	punct	35:punct	LMSeg:,
+34	რომელი	რომელი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	35	nsubj	35:nsubj	LMSeg:რომელ[ი]|Translit=romeli
+35	იყო	ყოფა	VERB	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	31	acl:relcl	31:acl:relcl	LMSeg:ყოფა|Translit=iqo
+36	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl	Case=Nom|Number=Plur|Person=1|PronType=Prs	35	obl	35:obl	LMSeg:ჩუენ|Translit=čuen
+37	თანა	თანა	ADP	Post	AdpType=Post|Case=Gen	36	case	36:case	LMSeg:თანა|Translit=tana
+38	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_22_1
+# text = რამეთუ შევირცხჳნეთ თხოვად მეფისაგან შემწეობისათჳს მჴედრებისა, რაჲთამცა განმარინნეს ჩუენ მტერთა ჩუენთაგან გზასა მას.
+1	რამეთუ	რამეთუ	SCONJ	Cj_Sub	_	2	mark	2:mark	LMSeg:რამეთუ|Translit=rametu
+2	შევირცხჳნეთ	რცხუენა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:შე·რცხუენა|Translit=ševircxwinet
+3	თხოვად	თხოვა	VERB	V_Masd_Adv	Case=Adv|VerbForm=Vnoun	2	xcomp	2:xcomp	LMSeg:თხოვა|Translit=txovad
+4-5	მეფისაგან	_	_	_	_	_	_	_	Translit=mepisagan
+4	მეფისა	მეფე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	obl	3:obl	LMSeg:მეფე|Translit=mepisa
+5	გან	გან	ADP	Post	AdpType=Post|Case=Gen	4	case	4:case	LMSeg:გან|Translit=gan
+6-7	შემწეობისათჳს	_	_	_	_	_	_	_	Translit=šemc̣eobisatwis
+6	შემწეობისა	შემწეობა	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	obl	3:obl	LMSeg:შემწეობა|Translit=šemc̣eobisa
+7	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	6	case	6:case	LMSeg:თჳს|Translit=twis
+8	მჴედრებისა	მჴედრება	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	obj	3:obj	LMSeg:მჴედრება|Translit=mqedrebisa
+9	,	,	PUNCT	Punct_Comma	_	11	punct	11:punct	LMSeg:,
+10	რაჲთამცა	რაჲთამცა	SCONJ	Cj_Sub	_	11	mark	11:mark	LMSeg:რაჲთამცა|Translit=raytamca
+11	განმარინნეს	რიდება	VERB	V_Act_Aor_Pv_S:3Pl_O:1Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	advcl	2:advcl	LMSeg:გან·რიდება|Translit=ganmarinnes
+12	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	obj	11:obj	LMSeg:ჩუენ|Translit=čuen
+13	მტერთა	მტერი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	11	obl	11:obl	LMSeg:მტერ[ი]|Translit=mṭerta
+14-15	ჩუენთაგან	_	_	_	_	_	_	_	Translit=čuentagan
+14	ჩუენთა	ჩუენი	PRON	Pron_Poss_1Pl_Obl_Pl	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod	13:nmod	LMSeg:ჩუენი|Translit=čuenta
+15	გან	გან	ADP	Post	AdpType=Post|Case=Gen	14	case	14:case	LMSeg:გან|Translit=gan
+16	გზასა	გზა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	11	obl	11:obl	LMSeg:გზა|Translit=gzasa
+17	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	16	det	16:det	LMSeg:იგი|Translit=mas
+18	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_22_2
+# text = ვარქუთ ჩუენ მეფესა მას ესრეთ, ვითარმედ: ჴელი უფლისა, ღმრთისა ჩუენისაჲ, შემწე არს ყოველთა, რომელნი ეძიებენ მას კეთილსა შინა, და ძლიერებაჲ მისი და რისხვაჲ მისი ყოველთა ზედა არს, რომელთა დაუტევეს იგი.
+1	ვარქუთ	რქუმა	VERB	V_Act_Aor_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:რქუმა|Translit=varkut
+2	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl	Number=Plur|Person=1|PronType=Prs	1	nsubj	1:nsubj	LMSeg:ჩუენ|Translit=čuen
+3	მეფესა	მეფე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	1	iobj	1:iobj	LMSeg:მეფე|Translit=mepesa
+4	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=mas
+5	ესრეთ	ესრეთ	ADV	Adv_Dem	PronType=Dem	1	advmod	1:advmod	LMSeg:ესრეთ|Translit=esret
+6	,	,	PUNCT	Punct_Comma	_	7	punct	7:punct	LMSeg:,
+7	ვითარმედ	ვითარმედ	SCONJ	Cj_Sub	_	15	mark	15:mark	LMSeg:ვითარმედ|Translit=vitarmed
+8	:	:	PUNCT	Punct_Colon	_	7	punct	7:punct	LMSeg::
+9	ჴელი	ჴელი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	16	nsubj	16:nsubj	LMSeg:ჴელ[ი]|Translit=qeli
+10	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	9	nmod	10:nmod	LMSeg:უფალ[ი]|Translit=uplisa
+11	,	,	PUNCT	Punct_Comma	_	12	punct	12:punct	LMSeg:,
+12	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	10	appos	10:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+13	ჩუენისაჲ	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod	12:nmod	LMSeg:ჩუენი|Translit=čuenisay
+14	,	,	PUNCT	Punct_Comma	_	9	punct	9:punct	LMSeg:,
+15	შემწე	შემწე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	1	ccomp	1:ccomp	LMSeg:შემწე|Translit=šemc̣e
+16	არს	ყოფა	VERB	V_Act_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	LMSeg:ყოფა|Translit=ars
+17	ყოველთა	ყოველი	PRON	Pron_Tot_Obl_Pl	Case=Dat|Number=Plur|PronType=Tot	15	obl	15:obl	LMSeg:ყოველ[ი]|Translit=q̇ovelta
+18	,	,	PUNCT	Punct_Comma	_	20	punct	20:punct	LMSeg:,
+19	რომელნი	რომელი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	20	nsubj	20:nsubj	LMSeg:რომელ[ი]|Translit=romelni
+20	ეძიებენ	ძიება	VERB	V_Act_Pres_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	LMSeg:ძიება|Translit=eʒieben
+21	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	20	obj	20:obj	LMSeg:იგი|Translit=mas
+22	კეთილსა	კეთილი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	20	obl	20:obl	LMSeg:კეთილ[ი]|Translit=k̇etilsa
+23	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	22	case	22:case	LMSeg:შინა|Translit=šina
+24	,	,	PUNCT	Punct_Comma	_	26	punct	26:punct	LMSeg:,
+25	და	და	CCONJ	Cj_Coord	_	26	cc	26:cc	LMSeg:და|Translit=da
+26	ძლიერებაჲ	ძლიერება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	conj	15:conj	LMSeg:ძლიერება|Translit=ʒlierebay
+27	მისი	მისი	PRON	Pron_Poss_3Sg_Nom_Sg	Case=Nom|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod	26:nmod	LMSeg:მისი|Translit=misi
+28	და	და	CCONJ	Cj_Coord	_	29	cc	29:cc	LMSeg:და|Translit=da
+29	რისხვაჲ	რისხვა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	26	conj	26:conj	LMSeg:რისხვა|Translit=risxvay
+30	მისი	მისი	PRON	Pron_Poss_3Sg_Nom_Sg	Case=Nom|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod	29:nmod	LMSeg:მისი|Translit=misi
+31	ყოველთა	ყოველი	PRON	Pron_Tot_Obl_Pl	Case=Dat|Number=Plur|PronType=Tot	33	obl	33:obl	LMSeg:ყოველ[ი]|Translit=q̇ovelta
+32	ზედა	ზედა	ADP	Post	AdpType=Post|Case=Dat	31	case	31:case	LMSeg:ზედა|Translit=zeda
+33	არს	ყოფა	VERB	V_Act_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	LMSeg:ყოფა|Translit=ars
+34	,	,	PUNCT	Punct_Comma	_	36	punct	36:punct	LMSeg:,
+35	რომელთა	რომელი	PRON	Pron_Rel_Erg_Pl	Case=Erg|Number=Plur|PronType=Rel	36	nsubj	36:nsubj	LMSeg:რომელ[ი]|Translit=romelta
+36	დაუტევეს	ტევება	VERB	V_Act_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	31	acl:relcl	31:acl:relcl	LMSeg:და·ტევება|Translit=dauṭeves
+37	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	36	obj	36:obj	LMSeg:იგი|Translit=igi
+38	.	.	PUNCT	Punct_FullStop	_	1	punct	1:punct	LMSeg:.
+
+# sentence_id = 8_23_1
+# text = და ვიმარხევდით და ვითხოვდით ღმრთისაგან ჩუენისა ამის ყოვლისათჳს.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	ვიმარხევდით	მარხვა	VERB	V_Act_Imp_SV_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Imp|VerbForm=Fin	0	root	0:root	LMSeg:მარხვა|Translit=vimarxevdit
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	ვითხოვდით	თხოვა	VERB	V_Act_Imp_SV_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Imp|VerbForm=Fin	2	conj	2:conj	LMSeg:თხოვა|Translit=vitxovdit
+5-6	ღმრთისაგან	_	_	_	_	_	_	_	Translit=gmrtisagan
+5	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	4	obl	4:obl	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+6	გან	გან	ADP	Post	AdpType=Post|Case=Gen	5	case	5:case	LMSeg:გან|Translit=gan
+7	ჩუენისა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	5:nmod	LMSeg:ჩუენი|Translit=čuenisa
+8	ამის	ესე	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	9	det	9:det	LMSeg:ესე|Translit=amis
+9-10	ყოვლისათჳს	_	_	_	_	_	_	_	Translit=q̇ovlisatwis
+9	ყოვლისა	ყოველი	PRON	Pron_Tot_Gen_Sg	Case=Gen|Number=Sing|PronType=Tot	4	obl	4:obl	LMSeg:ყოველ[ი]|Translit=q̇ovlisa
+10	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	9	case	9:case	LMSeg:თჳს|Translit=twis
+11	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_23_2
+# text = და ისმინა ჩუენი.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	ისმინა	სმენა	VERB	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:სმენა|Translit=ismina
+3	ჩუენი	ჩუენი	PRON	Pron_Poss_1Pl_Nom_Sg	Case=Nom|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	obj	2:obj	LMSeg:ჩუენი|Translit=čueni
+4	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_24
+# text = და წარვავლინეთ მთავართა მათგანნი მღდელთაჲსა ათორმეტნი: სარაბიაჲ და ასაბიაჲ, და მათ თანა ძმათა მათგანნი ათნი.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	წარვავლინეთ	ვლინება	VERB	V_Act_Aor_Pv_AV_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:წარ·ვლინება|Translit=c̣arvavlinet
+3	მთავართა	მთავარი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	7	nmod	7:nmod	LMSeg:მთავარ[ი]|Translit=mtavarta
+4-5	მათგანნი	_	_	_	_	_	_	_	Translit=matganni
+4	მათ	იგი	PRON	Pron_Dem_Obl_Pl	Case=Gen|Number=Plur|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=mat
+5	განნი	გან	ADP	Post_Nom_Pl	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Plur	3	case	3:case	LMSeg:გან[ნი]|Translit=ganni
+6	მღდელთაჲსა	მღდელი	NOUN	N_Obl_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing	3	nmod	3:nmod	LMSeg:მღდელ[ი]|Translit=mgdeltaysa
+7	ათორმეტნი	ათორმეტი	NUM	Num_Nom_Pl	Case=Nom|Number=Plur|NumType=Card	2	obj	2:obj	LMSeg:ათორმეტ[ი]|Translit=atormeṭni
+8	:	:	PUNCT	Punct_Colon	_	9	punct	9:punct	LMSeg::
+9	სარაბიაჲ	სარაბია	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	7	appos	7:appos	LMSeg:სარაბია|Translit=sarabiay
+10	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+11	ასაბიაჲ	ასაბია	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	9	conj	9:conj	LMSeg:ასაბია|Translit=asabiay
+12	,	,	PUNCT	Punct_Comma	_	19	punct	19:punct	LMSeg:,
+13	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+14	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	19	obl	19:obl	LMSeg:იგი|Translit=mat
+15	თანა	თანა	ADP	Post	AdpType=Post|Case=Gen	14	case	14:case	LMSeg:თანა|Translit=tana
+16	ძმათა	ძმა	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	19	nmod	19:nmod	LMSeg:ძმა|Translit=ʒmata
+17-18	მათგანნი	_	_	_	_	_	_	_	Translit=matganni
+17	მათ	იგი	PRON	Pron_Dem_Obl_Pl	Case=Gen|Number=Plur|PronType=Dem	16	det	16:det	LMSeg:იგი|Translit=mat
+18	განნი	გან	ADP	Post_Nom_Pl	AdpType=Post|Case=Gen|Case[sauf]=Nom|Number[sauf]=Plur	16	case	16:case	LMSeg:გან[ნი]|Translit=ganni
+19	ათნი	ათი	NUM	Num_Nom_Pl	Case=Nom|Number=Plur|NumType=Card	7	conj	7:conj	LMSeg:ათ[ი]|Translit=atni
+20	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_25
+# text = და აღვწონეთ და მივეცით მათ ვეცხლი და ოქროჲ, სამსახურებელი პირველთაჲ მათ ღმრთისა ჩუენისაჲ, რომლითა აღგუამაღლნა ჩუენ მეფემან მან და თანამზრახვალთა მისთა და ყოველმან ისრაელმან, რომელნი-იგი ერთვე იყვნეს მუნ.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	აღვწონეთ	წონა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:აღ·წონა|Translit=agvc̣onet
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	მივეცით	მიცემა	VERB	V_Act_Aor_Pv_S:1Pl_IO:3	Mood=Ind|Number[subj]=Plur|Person[iobj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მი·ცემა|Translit=mivecit
+5	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	4	iobj	4:iobj	LMSeg:იგი|Translit=mat
+6	ვეცხლი	ვეცხლი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	obj	4:obj	LMSeg:ვეცხლ[ი]|Translit=vecli
+7	და	და	CCONJ	Cj_Coord	_	8	cc	8:cc	LMSeg:და|Translit=da
+8	ოქროჲ	ოქრო	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	conj	6:conj	LMSeg:ოქრო|Translit=okroy
+9	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+10	სამსახურებელი	სამსახურებელი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	8	conj	8:conj	LMSeg:სამსახურებელ[ი]|Translit=samsaxurebeli
+11	პირველთაჲ	პირველი	ADJ	A_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Plur|Number[sauf]=Sing	10	nmod	10:nmod	LMSeg:პირველ[ი]|Translit=pirveltay
+12	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	11	det	11:det	LMSeg:იგი|Translit=mat
+13	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	11	nmod	11:nmod	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+14	ჩუენისაჲ	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod	13:nmod	LMSeg:ჩუენი|Translit=čuenisay
+15	,	,	PUNCT	Punct_Comma	_	17	punct	17:punct	LMSeg:,
+16	რომლითა	რომელი	PRON	Pron_Rel_Ins_Sg	Case=Ins|Number=Sing|PronType=Rel	17	obl	17:obl	LMSeg:რომელ[ი]|Translit=romlita
+17	აღგუამაღლნა	ამაღლება	VERB	V_Act_Aor_Pv_AV_S:3Sg_O:1Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Aor|VerbForm=Fin	10	acl:relcl	10:acl:relcl	LMSeg:აღ·მაღლება|Translit=agguamaglna
+18	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl_Nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	obj	17:obj	LMSeg:ჩუენ|Translit=čuen
+19	მეფემან	მეფე	NOUN	N_Erg_Sg	Case=Erg|Number=Sing	17	nsubj	17:nsubj	LMSeg:მეფე|Translit=mepeman
+20	მან	იგი	PRON	Pron_Dem_Erg_Sg	Case=Erg|Number=Sing|PronType=Dem	19	det	19:det	LMSeg:იგი|Translit=man
+21	და	და	CCONJ	Cj_Coord	_	22	cc	22:cc	LMSeg:და|Translit=da
+22	თანამზრახვალთა	თანამზრახვალი	NOUN	N_Obl_Pl	Case=Erg|Number=Plur	19	conj	19:conj	LMSeg:თანამზრახვალ[ი]|Translit=tanamzraxvalta
+23	მისთა	მისი	PRON	Pron_Poss_3Sg_Obl_Pl	Case=Erg|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod	22:nmod	LMSeg:მისი|Translit=mista
+24	და	და	CCONJ	Cj_Coord	_	26	cc	26:cc	LMSeg:და|Translit=da
+25	ყოველმან	ყოველი	PRON	Pron_Tot_Erg_Sg	Case=Erg|Number=Sing|PronType=Tot	26	det	26:det	LMSeg:ყოველ[ი]|Translit=q̇ovelman
+26	ისრაელმან	ისრაელი	PROPN	N_Prop_Erg_Sg	Case=Erg|Number=Sing|NameType=Geo	19	conj	19:conj	LMSeg:ისრაელ[ი]|Translit=israelman
+27	,	,	PUNCT	Punct_Comma	_	30	punct	30:punct	LMSeg:,
+28	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	30	nsubj	30:nsubj	LMSeg:რომელი+იგი|Translit=romelni-igi
+29	ერთვე	ერთვე	ADV	Adv	_	30	advmod	30:advmod	LMSeg:ერთვე|Translit=ertve
+30	იყვნეს	ყოფა	VERB	V_Act_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	5	acl:relcl	5:acl:relcl	LMSeg:ყოფა|Translit=iqvnes
+31	მუნ	მუნ	ADV	Adv_Dem	PronType=Dem	30	advmod	30:advmod	LMSeg:მუნ|Translit=mun
+32	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_26
+# text = და აღვწონე და მივეც მათ: ვეცხლი ექუსას და ერგასისი ტალანტი და ჭურჭერი ვეცხლისაჲ ასი და ოქროჲსაჲ ასი ტალანტი
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	აღვწონე	წონა	VERB	V_Act_Aor_Pv_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:აღ·წონა|Translit=agvc̣one
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	მივეც	მიცემა	VERB	V_Act_Aor_Pv_S:1Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[iobj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მი·ცემა|Translit=mivec
+5	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	4	iobj	4:iobj	LMSeg:იგი|Translit=mat
+6	:	:	PUNCT	Punct_Colon	_	7	punct	7:punct	LMSeg::
+7	ვეცხლი	ვეცხლი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	obj	4:obj	LMSeg:ვეცხლ[ი]|Translit=vecli
+8	ექუსას	ექუსასი	NUM	Num_Abs	Case=Abs|NumType=Card	11	nummod	11:nummod	LMSeg:ექუსას|Translit=ekusas
+9	და	და	CCONJ	Cj_Coord	_	10	cc	10:cc	LMSeg:და|Translit=da
+10	ერგასისი	ერგასისი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	8	conj	8:conj	LMSeg:ერგასის[ი]|Translit=ergasisi
+11	ტალანტი	ტალანტი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	7	appos	7:appos	LMSeg:ტალანტ[ი]|Translit=ṭalanṭi
+12	და	და	CCONJ	Cj_Coord	_	13	cc	13:cc	LMSeg:და|Translit=da
+13	ჭურჭერი	ჭურჭერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	7	conj	7:conj	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣eri
+14	ვეცხლისაჲ	ვეცხლი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	13	nmod	13:nmod	LMSeg:ვეცხლ[ი]|Translit=veclisay
+15	ასი	ასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	13	nummod	13:nummod	LMSeg:ას[ი]|Translit=asi
+16	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
+17	ოქროჲსაჲ	ოქრო	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	13	conj	13:conj	LMSeg:ოქრო|Translit=okroysay
+18	ასი	ასი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	19	nummod	19:nummod	LMSeg:ას[ი]|Translit=asi
+19	ტალანტი	ტალანტი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	17	appos	17:appos	LMSeg:ტალანტ[ი]|Translit=ṭalanṭi
+20	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_27
+# text = და ჭურჭერი ოქროჲსაჲ ოცდასამი და ჭურჭერი სპილენძისაჲ წმიდაჲ, რჩეული, ოქროცხებული.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	ჭურჭერი	ჭურჭერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	0	root	0:root	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣eri
+3	ოქროჲსაჲ	ოქრო	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	2	nmod	2:nmod	LMSeg:ოქრო|Translit=okroysay
+4	ოცდასამი	ოცდასამი	NUM	Num_Nom_Sg	Case=Nom|Number=Sing|NumType=Card	2	nummod	2:nummod	LMSeg:ოცდასამ[ი]|Translit=ocdasami
+5	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+6	ჭურჭერი	ჭურჭერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	conj	2:conj	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣eri
+7	სპილენძისაჲ	სპილენძი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	6	nmod	6:nmod	LMSeg:სპილენძ[ი]|Translit=spilenʒisay
+8	წმიდაჲ	წმიდა	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	6	amod	6:amod	LMSeg:წმიდა|Translit=c̣miday
+9	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+10	რჩეული	რჩეული	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	8	conj	8:conj	LMSeg:რჩეულ[ი]|Translit=rčeuli
+11	,	,	PUNCT	Punct_Comma	_	12	punct	12:punct	LMSeg:,
+12	ოქროცხებული	ოქროცხებული	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	8	conj	8:conj	LMSeg:ოქროცხებულ[ი]|Translit=okrocxebuli
+13	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_28
+# text = და ვარქუ მათ: თქუენცა განწმედილ ხართ უფლისა ღმრთისა მიერ და ყოველი ჭურჭერი წმიდაჲ უფლისაჲ არს ოქროჲსაჲ და ვეცხლისაჲ წარრჩეულითა უფლისა ღმრთისა მამათა ჩუენთაჲსა.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	ვარქუ	რქუმა	VERB	V_Act_Aor_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:რქუმა|Translit=varku
+3	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	2	iobj	2:iobj	LMSeg:იგი|Translit=mat
+4	:	:	PUNCT	Punct_Colon	_	7	punct	7:punct	LMSeg::
+5-6	თქუენცა	_	_	_	_	_	_	_	Translit=tkuenca
+5	თქუენ	თქუენ	PRON	Pron_Pers_2Pl	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	7:nsubj	LMSeg:თქუენ|Translit=tkuen
+6	ცა	ცა	PART	Part_Inc	_	5	advmod	5:advmod	LMSeg:ცა|Translit=ca
+7	განწმედილ	განწმედა	VERB	V_Part_Abs	Case=Abs|Tense=Past|VerbForm=Part	2	ccomp	2:ccomp	LMSeg:გან·წმედა|Translit=ganc̣medil
+8	ხართ	ყოფა	AUX	V_Act_Pres_S:2Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=2|Tense=Pres|VerbForm=Fin	7	aux	7:aux	LMSeg:ყოფა|Translit=xart
+9	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	7	obl	7:obl	LMSeg:უფალ[ი]|Translit=uplisa
+10	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	9	appos	9:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+11	მიერ	მიერ	ADP	Post	AdpType=Post|Case=Gen	9	case	9:case	LMSeg:მიერ|Translit=mier
+12	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+13	ყოველი	ყოველი	PRON	Pron_Tot_Nom_Sg	Case=Nom|Number=Sing|PronType=Tot	14	det	14:det	LMSeg:ყოველ[ი]|Translit=q̇oveli
+14	ჭურჭერი	ჭურჭერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	16	nsubj	16:nsubj	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣eri
+15	წმიდაჲ	წმიდა	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	7	conj	7:conj	LMSeg:წმიდა|Translit=c̣miday
+16	უფლისაჲ	უფალი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	15	nmod	15:nmod	LMSeg:უფალ[ი]|Translit=uplisay
+17	არს	ყოფა	VERB	V_Act_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	LMSeg:ყოფა|Translit=ars
+18	ოქროჲსაჲ	ოქრო	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	15	nmod	15:nmod	LMSeg:ოქრო|Translit=okroysay
+19	და	და	CCONJ	Cj_Coord	_	20	cc	20:cc	LMSeg:და|Translit=da
+20	ვეცხლისაჲ	ვეცხლი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	18	conj	18:conj	LMSeg:ვეცხლ[ი]|Translit=veclisay
+21	წარრჩეულითა	წარრჩეული	NOUN	N_Ins_Sg	Case=Ins|Number=Sing	15	obl	15:obl	LMSeg:წარრჩეულ[ი]|Translit=c̣arrčeulita
+22	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	21	nmod	21:nmod	LMSeg:უფალ[ი]|Translit=uplisa
+23	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	22	appos	22:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+24	მამათა	მამა	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	23	nmod	23:nmod	LMSeg:მამა|Translit=mamata
+25	ჩუენთაჲსა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod	24:nmod	LMSeg:ჩუენი|Translit=čuentaysa
+26	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_29
+# text = მღჳძარედ დეგით და ჴუმილევდით, ვიდრემდის აღსწონოთ ეგე წინაშე მთავართა მათ, მღდელთა და ლევიტელთა და მფლობელთა მათ მამათმთავართა ისრაელისათა, რომელნი არიან იერუსალემს, კარავთა შინა სახლისა უფლისათა.
+1	მღჳძარედ	მღჳძარედ	ADV	Adv	_	2	advmod	2:advmod	LMSeg:მღჳძარედ|Translit=mgwizared
+2	დეგით	დგომა	VERB	V_Act_Aor_Imp_S:2Pl	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:დგომა|Translit=degit
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	ჴუმილევდით	ჴუმილვა	VERB	V_Act_Pres_Imp_S:2Pl	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Tense=Pres|VerbForm=Fin	2	conj	2:conj	LMSeg:ჴუმილვა|Translit=qumilevdit
+5	,	,	PUNCT	Punct_Comma	_	7	punct	7:punct	LMSeg:,
+6	ვიდრემდის	ვიდრემდის	SCONJ	Cj_Sub	_	7	mark	7:mark	LMSeg:ვიდრემდის|Translit=vidremdis
+7	აღსწონოთ	აღწონა	VERB	V_Act_Aor_Subj_S:2Pl_IO:3Sg	Mood=Sub|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=2|Tense=Aor|VerbForm=Fin	2	advcl	2:advcl	LMSeg:აღ·წონა|Translit=agsc̣onot
+8	ეგე	ეგე	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	7	obj	7:obj	LMSeg:ეგე|Translit=ege
+9	წინაშე	წინაშე	ADP	Pre	AdpType=Pre|Case=Gen	10	case	10:case	LMSeg:წინაშე|Translit=c̣inaše
+10	მთავართა	მთავარი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	7	obl	7:obl	LMSeg:მთავარ[ი]|Translit=mtavarta
+11	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	10	det	10:det	LMSeg:იგი|Translit=mat
+12	,	,	PUNCT	Punct_Comma	_	13	punct	13:punct	LMSeg:,
+13	მღდელთა	მღდელი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	10	conj	10:conj	LMSeg:მღდელ[ი]|Translit=mgdelta
+14	და	და	CCONJ	Cj_Coord	_	15	cc	15:cc	LMSeg:და|Translit=da
+15	ლევიტელთა	ლევიტელი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	10	conj	10:conj	LMSeg:ლევიტელ[ი]|Translit=leviṭelta
+16	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
+17	მფლობელთა	მფლობელი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	10	conj	10:conj	LMSeg:მფლობელ[ი]|Translit=mplobelta
+18	მათ	იგი	PRON	Pron_Dem_Gen_Pl	Case=Gen|Number=Plur|PronType=Dem	17	det	17:det	LMSeg:იგი|Translit=mat
+19	მამათმთავართა	მამათმთავარი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	17	appos	17:appos	LMSeg:მამათმთავარ[ი]|Translit=mamatmtavarta
+20	ისრაელისათა	ისრაელი	PROPN	N_Prop_Gen_Sg_Obl_Pl	Case=Gen|Case[sauf]=Gen|Number=Sing|Number[sauf]=Plur|NameType=Geo	19	nmod	19:nmod	LMSeg:ისრაელ[ი]|Translit=israelisata
+21	,	,	PUNCT	Punct_Comma	_	23	punct	23:punct	LMSeg:,
+22	რომელნი	რომელი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	23:nsubj	LMSeg:რომელ[ი]|Translit=romelni
+23	არიან	ყოფა	VERB	V_Act_Pres_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	LMSeg:ყოფა|Translit=arian
+24	იერუსალემს	იერუსალემი	PROPN	N_Prop_Dat_Sg	Case=Dat|Number=Sing|NameType=Geo	23	obl	23:obl	LMSeg:იერუსალემ[ი]|Translit=ierusalems
+25	,	,	PUNCT	Punct_Comma	_	26	punct	26:punct	LMSeg:,
+26	კარავთა	კარავი	NOUN	N_Obl_Pl	Case=Dat|Number=Plur	23	obl	23:obl	LMSeg:კარავ[ი]|Translit=k̇aravta
+27	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	26	case	26:case	LMSeg:შინა|Translit=šina
+28	სახლისა	სახლი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	26	nmod	26:nmod	LMSeg:სახლ[ი]|Translit=saxlisa
+29	უფლისათა	უფალი	NOUN	N_Gen_Sg_Dat_Pl	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Plur	28	nmod	28:nmod	LMSeg:უფალ[ი]|Translit=uplisata
+30	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_30
+# text = და აღიღეს მღდელთა მათ და ლევიტელთა რიცხჳ იგი ოქროჲსაჲ და ვეცხლისაჲ და ჭურჭრისაჲ და მიიღეს იერუსალემდ, სახლსა შინა ღმრთისა ჩუენისასა.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	აღიღეს	აღება	VERB	V_Act_Aor_Pv_SV_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:აღ·ღება|Translit=agiges
+3	მღდელთა	მღდელი	NOUN	N_Erg_Pl	Case=Erg|Number=Plur	2	nsubj	2:nsubj	LMSeg:მღდელ[ი]|Translit=mgdelta
+4	მათ	იგი	PRON	Pron_Dem_Erg_Pl	Case=Erg|Number=Plur|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=mat
+5	და	და	CCONJ	Cj_Coord	_	6	cc	6:cc	LMSeg:და|Translit=da
+6	ლევიტელთა	ლევიტელი	NOUN	N_Erg_Pl	Case=Erg|Number=Plur	3	conj	3:conj	LMSeg:ლევიტელ[ი]|Translit=leviṭelta
+7	რიცხჳ	რიცხჳ	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	obj	2:obj	LMSeg:რიცხჳ|Translit=ricxwi
+8	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=igi
+9	ოქროჲსაჲ	ოქრო	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	7	nmod	7:nmod	LMSeg:ოქრო|Translit=okroysay
+10	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+11	ვეცხლისაჲ	ვეცხლი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	9	conj	9:conj	LMSeg:ვეცხლ[ი]|Translit=veclisay
+12	და	და	CCONJ	Cj_Coord	_	13	cc	13:cc	LMSeg:და|Translit=da
+13	ჭურჭრისაჲ	ჭურჭერი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	9	conj	9:conj	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣risay
+14	და	და	CCONJ	Cj_Coord	_	15	cc	15:cc	LMSeg:და|Translit=da
+15	მიიღეს	მიღება	VERB	V_Act_Aor_Pv_SV_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მი·ღება|Translit=miiges
+16	იერუსალემდ	იერუსალემი	PROPN	N_Prop_Adv_Sg	Case=All|Number=Sing|NameType=Geo	15	obl	15:obl	LMSeg:იერუსალემ[ი]|Translit=ierusalemd
+17	,	,	PUNCT	Punct_Comma	_	18	punct	18:punct	LMSeg:,
+18	სახლსა	სახლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	15	obl	15:obl	LMSeg:სახლ[ი]|Translit=saxlsa
+19	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	18	case	18:case	LMSeg:შინა|Translit=šina
+20	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	18	nmod	18:nmod	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+21	ჩუენისასა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod	20:nmod	LMSeg:ჩუენი|Translit=čuenisasa
+22	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_31_1
+# text = და აღვდეგით და წარვიძრენით აოს მდინარით, რომელსა დღესა ათორმეტ იყო თთუჱ და თთჳსაჲ, და მოვედით და მოვიწიენით იერუსალემდ;
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	აღვდეგით	დგომა	VERB	V_Act_Aor_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:აღ·დგომა|Translit=agvdegit
+3	და	და	CCONJ	Cj_Coord	_	4	cc	4:cc	LMSeg:და|Translit=da
+4	წარვიძრენით	წარძრვა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:წარ·ძრვა|Translit=c̣arviʒrenit
+5	აოს	აო	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Geo	6	nmod	6:nmod	LMSeg:აო|Translit=aos
+6	მდინარით	მდინარე	NOUN	N_Ins_Sg	Case=Ins|Number=Sing	4	obl	4:obl	LMSeg:მდინარე|Translit=mdinarit
+7	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+8	რომელსა	რომელი	PRON	Pron_Rel_Dat_Sg	Case=Dat|Number=Sing|PronType=Rel	9	det	9:det	LMSeg:რომელ[ი]|Translit=romelsa
+9	დღესა	დღე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	10	obl	10:obl	LMSeg:დღე|Translit=dgesa
+10	ათორმეტ	ათორმეტი	NUM	Num_Abs	Case=Abs|NumType=Card	4	acl:relcl	4:acl:relcl	LMSeg:ათორმეტ[ი]|Translit=atormeṭ
+11	იყო	ყოფა	AUX	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	10	cop	10:cop	LMSeg:ყოფა|Translit=iqo
+12	თთუჱ	თთუე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	10	nsubj	10:nsubj	LMSeg:თთუე|Translit=ttwē
+13	და	და	CCONJ	Cj_Coord	_	14	cc	14:cc	LMSeg:და|Translit=da
+14	თთჳსაჲ	თთუე	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	12	conj	12:conj	LMSeg:თთუე|Translit=ttwisay
+15	,	,	PUNCT	Punct_Comma	_	17	punct	17:punct	LMSeg:,
+16	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
+17	მოვედით	მოსლვა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მო·სლვა|Translit=movedit
+18	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
+19	მოვიწიენით	მოწევნა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:მო·წევა|Translit=movic̣ienit
+20	იერუსალემდ	იერუსალემი	PROPN	N_Prop_Adv_Sg	Case=All|Number=Sing|NameType=Geo	19	obl	19:obl	LMSeg:იერუსალემ[ი]|Translit=ierusalemd
+21	;	;	PUNCT	Punct_SemiColon	_	2	punct	2:punct	LMSeg:;
+
+# sentence_id = 8_31_2
+# text = ჴელითა ღმრთისა ჩუენისაჲთა, რომელი იყო ჩუენ თანა, და მიჴსნნა ჩუენ ჴელთაგან მტერთა ჩუენთაჲსა და მბრძოლთა ჩუენთაგან, რომელნი იყვნეს გზასა მას.
+1	ჴელითა	ჴელი	NOUN	N_Ins_Sg	Case=Ins|Number=Sing	10	obl	10:obl	LMSeg:ჴელ[ი]|Translit=qelita
+2	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	1	nmod	1:nmod	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+3	ჩუენისაჲთა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg_Ins_Sg	Case=Gen|Case[sauf]=Ins|Number=Sing|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	2:nmod	LMSeg:ჩუენი|Translit=čuenisayta
+4	,	,	PUNCT	Punct_Comma	_	6	punct	6:punct	LMSeg:,
+5	რომელი	რომელი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	6:nsubj	LMSeg:რომელ[ი]|Translit=romeli
+6	იყო	ყოფა	VERB	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	2	acl:relcl	2:acl:relcl	LMSeg:ყოფა|Translit=iqo
+7	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl	LMSeg:ჩუენ|Translit=čuen
+8	თანა	თანა	ADP	Post	AdpType=Post|Case=Gen	7	case	7:case	LMSeg:თანა|Translit=tana
+9	,	,	PUNCT	Punct_Comma	_	1	punct	1:punct	LMSeg:,
+10	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+11	მიჴსნნა	მიჴსნა	VERB	V_Act_Aor_Pv_S:3Sg_O:1Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მი·ჴსნა|Translit=mixsnna
+12	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl_Nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	obj	11:obj	LMSeg:ჩუენ|Translit=čuen
+13-14	ჴელთაგან	_	_	_	_	_	_	_	Translit=qeltagan
+13	ჴელთა	ჴელი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	11	obl	11:obl	LMSeg:ჴელ[ი]|Translit=qelta
+14	გან	გან	ADP	Post	AdpType=Post|Case=Gen	13	case	13:case	LMSeg:გან|Translit=gan
+15	მტერთა	მტერი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	13	nmod	13:nmod	LMSeg:მტერ[ი]|Translit=mṭerta
+16	ჩუენთაჲსა	ჩუენი	PRON	Pron_Poss_1Pl_Obl_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod	15:nmod	LMSeg:ჩუენი|Translit=čuentaysa
+17	და	და	CCONJ	Cj_Coord	_	18	cc	18:cc	LMSeg:და|Translit=da
+18	მბრძოლთა	მბრძოლი	NOUN	N_Obl_Pl	Case=Gen|Number=Plur	13	conj	13:conj	LMSeg:მბრძოლ[ი]|Translit=mbrʒolta
+19-20	ჩუენთაგან	_	_	_	_	_	_	_	Translit=čuentagan
+19	ჩუენთა	ჩუენი	PRON	Pron_Poss_1Pl_Obl_Pl	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod	18:nmod	LMSeg:ჩუენი|Translit=čuenta
+20	გან	გან	ADP	Post	AdpType=Post|Case=Gen	18	case	18:case	LMSeg:გან|Translit=gan
+21	,	,	PUNCT	Punct_Comma	_	23	punct	23:punct	LMSeg:,
+22	რომელნი	რომელი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	23:nsubj	LMSeg:რომელ[ი]|Translit=romelni
+23	იყვნეს	ყოფა	VERB	V_Act_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	18	acl:relcl	18:acl:relcl	LMSeg:ყოფა|Translit=iqvnes
+24	გზასა	გზა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	23	obl	23:obl	LMSeg:გზა|Translit=gzasa
+25	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	24	det	24:det	LMSeg:იგი|Translit=mas
+26	.	.	PUNCT	Punct_FullStop	_	11	punct	11:punct	LMSeg:.
+
+# sentence_id = 8_32
+# text = და მოვედით იერუსალემდ და განვისუენეთ მუნ სამ დღჱ ოდენ.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	მოვედით	მოსლვა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მო·სლვა|Translit=movedit
+3	იერუსალემდ	იერუსალემი	PROPN	N_Prop_Adv_Sg	Case=All|Number=Sing|NameType=Geo	2	obl	2:obl	LMSeg:იერუსალემ[ი]|Translit=ierusalemd
+4	და	და	CCONJ	Cj_Coord	_	5	cc	5:cc	LMSeg:და|Translit=da
+5	განვისუენეთ	სუენება	VERB	V_Act_Aor_Pv_SV_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	2	conj	2:conj	LMSeg:გან·სუენება|Translit=ganvisuenet
+6	მუნ	მუნ	ADV	Adv_Dem	PronType=Dem	5	advmod	5:advmod	LMSeg:მუნ|Translit=mun
+7	სამ	სამი	NUM	Num_Abs	Case=Abs|NumType=Card	8	nummod	8:nummod	LMSeg:სამ[ი]|Translit=sam
+8	დღჱ	დღე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	5	obl	5:obl	LMSeg:დღე|Translit=dgē
+9	ოდენ	ოდენ	ADV	Adv	_	8	advmod	8:advmod	LMSeg:ოდენ|Translit=oden
+10	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_33
+# text = და დღესა მას მეოთხესა აღვწონეთ და მივეცით ვეცხლი იგი და ოქროჲ და ჭურჭერი სახლსა მას ღმრთისა ჩუენისასა ჴელთა მერევმოთისთაჲსა, ძისა ჰურიაჲს მღდელისათა და რომელ-იგი იყო მის თანა ელიაზარ, ძე ფინეზისი, და იოზაბად, ძჱ ისუჲსი, და ნოადია, ძჱ ბანეაჲსი, და სხუანი ლევიტელნი.
+1	და	და	CCONJ	Cj_Coord	_	5	cc	5:cc	LMSeg:და|Translit=da
+2	დღესა	დღე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	5	obl	5:obl	LMSeg:დღე|Translit=dgesa
+3	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	2	det	2:det	LMSeg:იგი|Translit=mas
+4	მეოთხესა	მეოთხე	ADJ	A_Dat_Sg	Case=Dat|Number=Sing	2	amod	2:amod	LMSeg:მეოთხე|Translit=meotxesa
+5	აღვწონეთ	აღწონა	VERB	V_Act_Aor_Pv_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:აღ·წონა|Translit=agvc̣onet
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	მივეცით	მიცემა	VERB	V_Act_Aor_Pv_S:1Pl_IO:3	Mood=Ind|Number[subj]=Plur|Person[iobj]=3|Person[subj]=1|Tense=Aor|VerbForm=Fin	5	conj	5:conj	LMSeg:მი·ცემა|Translit=mivecit
+8	ვეცხლი	ვეცხლი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	7	obj	7:obj	LMSeg:ვეცხლ[ი]|Translit=vecli
+9	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	8	det	8:det	LMSeg:იგი|Translit=igi
+10	და	და	CCONJ	Cj_Coord	_	11	cc	11:cc	LMSeg:და|Translit=da
+11	ოქროჲ	ოქრო	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	8	conj	8:conj	LMSeg:ოქრო|Translit=okroy
+12	და	და	CCONJ	Cj_Coord	_	13	cc	13:cc	LMSeg:და|Translit=da
+13	ჭურჭერი	ჭურჭერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	8	conj	8:conj	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣eri
+14	სახლსა	სახლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	7	iobj	7:iobj	LMSeg:სახლ[ი]|Translit=saxlsa
+15	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	14	det	14:det	LMSeg:იგი|Translit=mas
+16	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	14	nmod	14:nmod	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+17	ჩუენისასა	ჩუენი	PRON	Pron_Poss_1Pl_Gen_Sg_Dat_Sg	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod	16:nmod	LMSeg:ჩუენი|Translit=čuenisasa
+18	ჴელთა	ჴელი	NOUN	N_Dat_Pl	Case=Dat|Number=Plur	7	obl	7:obl	LMSeg:ჴელ[ი]|Translit=qelta
+19	მერევმოთისთაჲსა	მერევმოთი	PROPN	N_Prop_Gen_Sg_Gen_Pl_Nom_Sg	Case=Gen|Case[sauf]=Gen|Case[sauf2]=Nom|Number=Sing|Number[sauf]=Plur|Number[sauf2]=Sing|NameType=Giv	18	nmod	18:nmod	LMSeg:მერევმოთ[ი]|Translit=merevmotistaysa
+20	,	,	PUNCT	Punct_Comma	_	21	punct	21:punct	LMSeg:,
+21	ძისა	ძე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	19	appos	19:appos	LMSeg:ძე|Translit=ʒisa
+22	ჰურიაჲს	ჰურია	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Nat	21	nmod	21:nmod	LMSeg:ჰურია|Translit=huriays
+23	მღდელისათა	მღდელი	NOUN	N_Gen_Sg_Dat_Pl	Case=Gen|Case[sauf]=Dat|Number=Sing|Number[sauf]=Plur	22	appos	22:appos	LMSeg:მღდელ[ი]|Translit=mgdelisata
+24	და	და	CCONJ	Cj_Coord	_	26	cc	26:cc	LMSeg:და|Translit=da
+25	რომელ-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	27	det	27:det	LMSeg:რომელი+იგი|Translit=romel-igi
+26	იყო	ყოფა	VERB	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	19	conj	19:conj	LMSeg:ყოფა|Translit=iqo
+27	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	26	obl	26:obl	LMSeg:იგი|Translit=mis
+28	თანა	თანა	ADP	Post	AdpType=Post|Case=Gen	27	case	27:case	LMSeg:თანა|Translit=tana
+29	ელიაზარ	ელიაზარ	PROPN	N_Prop	NameType=Giv	26	nsubj	26:nsubj	LMSeg:ელიაზარ|Translit=eliazar
+30	,	,	PUNCT	Punct_Comma	_	31	punct	31:punct	LMSeg:,
+31	ძე	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	29	appos	29:appos	LMSeg:ძე|Translit=ʒe
+32	ფინეზისი	ფინეზი	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	31	nmod	31:nmod	LMSeg:ფინეზ[ი]|Translit=pinezisi
+33	,	,	PUNCT	Punct_Comma	_	35	punct	35:punct	LMSeg:,
+34	და	და	CCONJ	Cj_Coord	_	35	cc	35:cc	LMSeg:და|Translit=da
+35	იოზაბად	იოზაბად	PROPN	N_Prop	NameType=Giv	29	conj	29:conj	LMSeg:იოზაბად|Translit=iozabad
+36	,	,	PUNCT	Punct_Comma	_	37	punct	37:punct	LMSeg:,
+37	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	35	appos	35:appos	LMSeg:ძე|Translit=ʒē
+38	ისუჲსი	ისუ	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	37	nmod	37:nmod	LMSeg:ისუ|Translit=isuysi
+39	,	,	PUNCT	Punct_Comma	_	41	punct	41:punct	LMSeg:,
+40	და	და	CCONJ	Cj_Coord	_	41	cc	41:cc	LMSeg:და|Translit=da
+41	ნოადია	ნოადია	PROPN	N_Prop_Nom_Sg	Case=Nom|Number=Sing|NameType=Giv	29	conj	29:conj	LMSeg:ნოადია|Translit=noadia
+42	,	,	PUNCT	Punct_Comma	_	43	punct	43:punct	LMSeg:,
+43	ძჱ	ძე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	41	appos	41:appos	LMSeg:ძე|Translit=ʒē
+44	ბანეაჲსი	ბანეა	PROPN	N_Prop_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|NameType=Giv	43	nmod	43:nmod	LMSeg:ბანეა|Translit=baneaysi
+45	,	,	PUNCT	Punct_Comma	_	47	punct	47:punct	LMSeg:,
+46	და	და	CCONJ	Cj_Coord	_	47	cc	47:cc	LMSeg:და|Translit=da
+47	სხუანი	სხუა	PRON	Pron_Ind_Nom_Pl	Case=Nom|Number=Plur|PronType=Ind	29	conj	29:conj	LMSeg:სხუა|Translit=sxuani
+48	ლევიტელნი	ლევიტელი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	47	nmod	47:nmod	LMSeg:ლევიტელ[ი]|Translit=leviṭelni
+49	.	.	PUNCT	Punct_FullStop	_	5	punct	5:punct	LMSeg:.
+
+# sentence_id = 8_34_1
+# text = და იყო აღთუალვაჲ რიცხჳსაჲ მის ყოვლისაჲ.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	იყო	ყოფა	VERB	V_Act_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:ყოფა|Translit=iqo
+3	აღთუალვაჲ	აღთუალვა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	nsubj	2:nsubj	LMSeg:აღ·თუალვა|Translit=agtualvay
+4	რიცხჳსაჲ	რიცხჳ	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	3	nmod	3:nmod	LMSeg:რიცხჳ|Translit=ricxwisay
+5	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	4	det	4:det	LMSeg:იგი|Translit=mis
+6	ყოვლისაჲ	ყოველი	PRON	Pron_Tot_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing|PronType=Tot	4	nmod	4:nmod	LMSeg:ყოველ[ი]|Translit=q̇ovlisay
+7	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_34_2
+# text = და დაიწერა ყოველი იგი სწორად რიცხჳსა მის სრულისაჲ.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	დაიწერა	წერა	VERB	V_Pass_Aor_SV_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:და·წერა|Translit=daic̣era
+3	ყოველი	ყოველი	PRON	Pron_Tot_Nom_Sg	Case=Nom|Number=Sing|PronType=Tot	2	nsubj:pass	2:nsubj:pass	LMSeg:ყოველ[ი]|Translit=q̇oveli
+4	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=igi
+5	სწორად	სწორად	ADV	Adv	_	2	advmod	2:advmod	LMSeg:სწორად|Translit=sc̣orad
+6	რიცხჳსა	რიცხჳ	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	5	obl	5:obl	LMSeg:რიცხჳ|Translit=ricxwisa
+7	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	6	det	6:det	LMSeg:იგი|Translit=mis
+8	სრულისაჲ	სრული	ADJ	A_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	6	amod	6:amod	LMSeg:სრულ[ი]|Translit=srulisay
+9	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_35
+# text = და მას ჟამსა შინა, რომელნი-იგი გამოსრულ იყვნეს ტყუეობისა მისგან, შვილნი მსხემობისანი, შეწირეს საკუერთხი უფლისა ღმრთისა ისრაელისა: ზუარაკები ათორმეტ ყოვლისათჳს ისრაელისა, ვერძები ოთხმეოცდაათექუსმეტ, კრავები სამეოცდაათშჳდმეტ და წელიწადეულნი ცოდვათათჳს ათორმეტ - და ესე ყოველი საკუერთხები შეწირეს უფლისა ღმრთისა.
+1	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da
+2	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=mas
+3	ჟამსა	ჟამი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	16	obl	16:obl	LMSeg:ჟამ[ი]|Translit=žamsa
+4	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	3	case	3:case	LMSeg:შინა|Translit=šina
+5	,	,	PUNCT	Punct_Comma	_	8	punct	8:punct	LMSeg:,
+6	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	8:nsubj	LMSeg:რომელი+იგი|Translit=romelni-igi
+7	გამოსრულ	გამოსლვა	VERB	V_Part_Abs	Case=Abs|Tense=Past|VerbForm=Part	8	advcl	8:advcl	LMSeg:გამო·სლვა|Translit=gamosrul
+8	იყვნეს	ყოფა	AUX	V_Act_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	12	acl:relcl	12:acl:relcl	LMSeg:ყოფა|Translit=iqvnes
+9-10	ტყუეობისაგან	_	_	_	_	_	_	_	Translit=ṭq̇ueobisagan
+9	ტყუეობისა	ტყუეობა	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	8	obl	8:obl	LMSeg:ტყუეობა|Translit=ṭq̇ueobisa
+10	გან	გან	ADP	Post	AdpType=Post|Case=Gen	9	case	9:case	LMSeg:გან|Translit=gan
+11	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	9	det	9:det	LMSeg:იგი|Translit=mis
+12	შვილნი	შვილი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	16	nsubj	16:nsubj	LMSeg:შვილ[ი]|Translit=švilni
+13	მსხემობისანი	მსხემობა	NOUN	N_Gen_Sg_Nom_Pl	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Plur	12	nmod	12:nmod	LMSeg:მსხემობა|Translit=msxemobisani
+14	,	,	PUNCT	Punct_Comma	_	12	punct	12:punct	LMSeg:,
+15	შეწირეს	შეწირვა	VERB	V_Act_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:შე·წირვა|Translit=šec̣ires
+16	საკუერთხი	საკუერთხი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	obj	15:obj	LMSeg:საკუერთხ[ი]|Translit=sak̇uertxi
+17	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	16	nmod	16:nmod	LMSeg:უფალ[ი]|Translit=uplisa
+18	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	17	appos	17:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+19	ისრაელისა	ისრაელი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Geo	18	nmod	18:nmod	LMSeg:ისრაელ[ი]|Translit=israelisa
+20	:	:	PUNCT	Punct_Colon	_	21	punct	21:punct	LMSeg::
+21	ზუარაკები	ზუარაკი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	16	appos	16:appos	LMSeg:ზუარაკ[ი]|Translit=zuarak̇ebi
+22	ათორმეტ	ათორმეტი	NUM	Num_Abs	Case=Abs|NumType=Card	21	nummod	21:nummod	LMSeg:ათორმეტ[ი]|Translit=atormeṭ
+23-24	ყოვლისათჳს	_	_	_	_	_	_	_	Translit=q̇ovlisatwis
+23	ყოვლისა	ყოველი	PRON	Pron_Tot_Gen_Sg	Case=Gen|Number=Sing|PronType=Tot	21	nmod	21:nmod	LMSeg:ყოველ[ი]|Translit=q̇ovlisa
+24	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	23	case	23:case	LMSeg:თჳს|Translit=twis
+25	ისრაელისა	ისრაელი	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Geo	23	nmod	23:nmod	LMSeg:ისრაელ[ი]|Translit=israelisa
+26	,	,	PUNCT	Punct_Comma	_	27	punct	27:punct	LMSeg:,
+27	ვერძები	ვერძი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	21	conj	21:conj	LMSeg:ვერძ[ი]|Translit=verʒebi
+28	ოთხმეოცდაათექუსმეტ	ოთხმეოცდაათექუსმეტი	NUM	Num_Abs	Case=Abs|NumType=Card	27	nummod	27:nummod	LMSeg:ოთხმეოცდაათექუსმეტ[ი]|Translit=otxmeocdaatekuxsmeṭ
+29	,	,	PUNCT	Punct_Comma	_	30	punct	30:punct	LMSeg:,
+30	კრავები	კრავი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	21	conj	21:conj	LMSeg:კრავ[ი]|Translit=k̇ravebi
+31	სამეოცდაათშჳდმეტ	სამეოცდაათშჳდმეტი	NUM	Num_Abs	Case=Abs|NumType=Card	30	nummod	30:nummod	LMSeg:სამეოცდაათშჳდმეტ[ი]|Translit=sameocdaatšwidmeṭ
+32	და	და	CCONJ	Cj_Coord	_	33	cc	33:cc	LMSeg:და|Translit=da
+33	წელიწადეულნი	წელიწადეული	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	21	conj	21:conj	LMSeg:წელიწადეულ[ი]|Translit=c̣elic̣adeulni
+34-35	ცოდვათათჳს	_	_	_	_	_	_	_	Translit=codvatatwis
+34	ცოდვათა	ცოდვა	NOUN	N_Gen_Pl	Case=Gen|Number=Plur	33	nmod	33:nmod	LMSeg:ცოდვა|Translit=codvata
+35	თჳს	თჳს	ADP	Post	AdpType=Post|Case=Gen	34	case	34:case	LMSeg:თჳს|Translit=twis
+36	ათორმეტ	ათორმეტი	NUM	Num_Abs	Case=Abs|NumType=Card	33	nummod	33:nummod	LMSeg:ათორმეტ[ი]|Translit=atormeṭ
+37	-	-	PUNCT	Punct_Dash	_	42	punct	42:punct	LMSeg:-
+38	და	და	CCONJ	Cj_Coord	_	42	cc	42:cc	LMSeg:და|Translit=da
+39	ესე	ესე	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	41	det	41:det	LMSeg:ესე|Translit=ese
+40	ყოველი	ყოველი	PRON	Pron_Tot_Nom_Sg	Case=Nom|Number=Sing|PronType=Tot	41	det	41:det	LMSeg:ყოველ[ი]|Translit=q̇oveli
+41	საკუერთხები	საკუერთხი	NOUN	N_Nom_Pl	Case=Nom|Number=Plur	42	obj	42:obj	LMSeg:საკუერთხ[ი]|Translit=sak̇uertxebi
+42	შეწირეს	წირვა	VERB	V_Act_Aor_Pv_S:3Pl_O:3Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	15	conj	15:conj	LMSeg:შე·წირვა|Translit=šec̣ires
+43	უფლისა	უფალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	42	obl	42:obl	LMSeg:უფალ[ი]|Translit=uplisa
+44	ღმრთისა	ღმერთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	43	appos	43:appos	LMSeg:ღმერთ[ი]|Translit=gmrtisa
+45	.	.	PUNCT	Punct_FullStop	_	15	punct	15:punct	LMSeg:.
+
+# sentence_id = 8_36_1
+# text = და მისცეს აღწერილი იგი წიგნი ჭურჭრისაჲ მის, რომელ-იგი ებრძანა მეფესა მას ნახპეტთა მათ მისთა, რომელნი-იგი იყვნეს მეფისანი, და მთავართა მათ მდინარით კერძოთა ევფრატისათა.
+1	და	და	CCONJ	Cj_Coord	_	2	cc	2:cc	LMSeg:და|Translit=da
+2	მისცეს	მიცემა	VERB	V_Act_Aor_Pv_S:3Pl_IO:3Sg	Mood=Ind|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:მი·ცემა|Translit=misces
+3	აღწერილი	აღწერა	ADJ	A_Part_PastPart_Adv_Sg	Case=Adv|Number=Sing|Tense=Past|VerbForm=Part	5	amod	5:amod	LMSeg:აღ·წერა|Translit=agc̣erili
+4	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	LMSeg:იგი|Translit=igi
+5	წიგნი	წიგნი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	obj	2:obj	LMSeg:წიგნ[ი]|Translit=c̣igni
+6	ჭურჭრისაჲ	ჭურჭერი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	5	nmod	5:nmod	LMSeg:ჭურჭერ[ი]|Translit=č̣urč̣risay
+7	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	6	det	6:det	LMSeg:იგი|Translit=mis
+8	,	,	PUNCT	Punct_Comma	_	10	punct	10:punct	LMSeg:,
+9	რომელ-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Sg	Case=Nom|Number=Sing|PronType=Rel	10	obj	10:obj	LMSeg:რომელი+იგი|Translit=romel-igi
+10	ებრძანა	ბრძანება	VERB	V_Pass_Aor_S:3Sg_IO:3Sg	Mood=Ind|Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Tense=Aor|VerbForm=Fin	5	acl:relcl	5:acl:relcl	LMSeg:ბრძანება|Translit=ebrʒana
+11	მეფესა	მეფე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	10	iobj	10:iobj	LMSeg:მეფე|Translit=mepesa
+12	მას	იგი	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	11	det	11:det	LMSeg:იგი|Translit=mas
+13	ნახპეტთა	ნახპეტი	NOUN	N_Dat_Pl	Case=Dat|Number=Plur	10	obl	10:obl	LMSeg:ნახპეტ[ი]|Translit=naxpeṭta
+14	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	13	det	13:det	LMSeg:იგი|Translit=mat
+15	მისთა	მისი	PRON	Pron_Poss_3Sg_Dat_Pl	Case=Dat|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod	13:nmod	LMSeg:მისი|Translit=mista
+16	,	,	PUNCT	Punct_Comma	_	18	punct	18:punct	LMSeg:,
+17	რომელნი-იგი	რომელი-იგი	PRON	Pron_Rel_Nom_Pl	Case=Nom|Number=Plur|PronType=Rel	18	nsubj	18:nsubj	LMSeg:რომელი+იგი|Translit=romelni-igi
+18	იყვნეს	ყოფა	VERB	V_Act_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	13	acl:relcl	13:acl:relcl	LMSeg:ყოფა|Translit=iqvnes
+19	მეფისანი	მეფე	NOUN	N_Gen_Sg_Nom_Pl	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Plur	18	xcomp	18:xcomp	LMSeg:მეფე|Translit=mepisani
+20	,	,	PUNCT	Punct_Comma	_	22	punct	22:punct	LMSeg:,
+21	და	და	CCONJ	Cj_Coord	_	22	cc	22:cc	LMSeg:და|Translit=da
+22	მთავართა	მთავარი	NOUN	N_Dat_Pl	Case=Dat|Number=Plur	13	conj	13:conj	LMSeg:მთავარ[ი]|Translit=mtavarta
+23	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	22	det	22:det	LMSeg:იგი|Translit=mat
+24	მდინარით	მდინარე	NOUN	N_Ins_Sg	Case=Ins|Number=Sing	22	nmod	22:nmod	LMSeg:მდინარე|Translit=mdinarit
+25	კერძოთა	კერძო	ADP	Post	Case=Ins|Case[sauf]=Gen|Number[sauf]=Plur	24	case	24:case	LMSeg:კერძო|Translit=k̇erʒota
+26	ევფრატისათა	ევფრატი	PROPN	N_Prop_Gen_Sg_Gen_Pl	Case=Gen|Case[sauf]=Gen|Number=Sing|Number[sauf]=Plur|NameType=Geo	25	nmod	25:nmod	LMSeg:ევფრატ[ი]|Translit=evpraṭisata
+27	.	.	PUNCT	Punct_FullStop	_	2	punct	2:punct	LMSeg:.
+
+# sentence_id = 8_36_2
+# text = და დიდებულ ყვეს ერი იგი და ტაძარი იგი ღმრთისაჲ.
+1	და	და	CCONJ	Cj_Coord	_	3	cc	3:cc	LMSeg:და|Translit=da
+2	დიდებულ	დიდებული	VERB	V_PastPart_Abs_Sg	Case=Abs|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	3:xcomp	LMSeg:დიდებულ[ი]|Translit=didebul
+3	ყვეს	ყოფა	VERB	V_Act_Aor_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:ყოფა|Translit=q̇ves
+4	ერი	ერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	obj	3:obj	LMSeg:ერ[ი]|Translit=eri
+5	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	LMSeg:იგი|Translit=igi
+6	და	და	CCONJ	Cj_Coord	_	7	cc	7:cc	LMSeg:და|Translit=da
+7	ტაძარი	ტაძარი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	conj	4:conj	LMSeg:ტაძარ[ი]|Translit=ṭaʒari
+8	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	7	det	7:det	LMSeg:იგი|Translit=igi
+9	ღმრთისაჲ	ღმერთი	NOUN	N_Gen_Sg_Nom_Sg	Case=Gen|Case[sauf]=Nom|Number=Sing|Number[sauf]=Sing	7	nmod	7:nmod	LMSeg:ღმერთ[ი]|Translit=gmrtisay
+10	.	.	PUNCT	Punct_FullStop	_	3	punct	3:punct	LMSeg:.
