@@ -245,7 +245,7 @@
 33	კაცთა	კაცი	NOUN	N_Obl_Pl	Case=Dat|Number=Plur	31	iobj	31:iobj	LMSeg:კაც[ი]|Translit=k̇acta
 34	მაგათ	ეგე	PRON	Pron_Dem_Obl_Pl	Case=Dat|Number=Plur|PronType=Dem	33	det	33:det	LMSeg:ეგე|Translit=magat
 35	და	და	CCONJ	Cj_Coord	_	37	cc	37:cc	LMSeg:და|Translit=da
-36	ნუმცა	ნუმცა	PART	Part_Neg_Inc	Polarity=Neg	37	advmod	37:advmod	LMSeg:ნუმცა|Translit=numca
+36	ნუმცა	ნუმცა	ADV	Adv_Neg_Imp	Polarity=Neg	37	advmod	37:advmod	LMSeg:ნუმცა|Translit=numca
 37	დააბრკოლებენ	დაბრკოლება	VERB	V_Act_Pres_Pv_AV_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	31	conj	31:conj	LMSeg:და·ბრკოლება|Translit=daabrkoelben
 38	.	.	PUNCT	Punct_FullStop	_	3	punct	3:punct	LMSeg:.
 

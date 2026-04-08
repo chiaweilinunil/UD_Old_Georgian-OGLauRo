@@ -528,8 +528,8 @@
 8	და	და	CCONJ	Cj_Coord	_	9	cc	9:cc	LMSeg:და|Translit=da
 9	მთავართა	მთავარი	NOUN	N_Erg_Pl	Case=Erg|Number=Plur	7	conj	7:conj	LMSeg:მთავარ[ი]|Translit=mtavarta
 10	მათ	იგი	PRON	Pron_Dem_Obl_Pl	Case=Erg|Number=Plur|PronType=Dem	9	det	9:det	LMSeg:იგი|Translit=mat
-11	მონებად	მონება	VERB	V_Masd_Adv	Case=All|VerbForm=Vnoun	6	xcomp	6:xcomp	LMSeg:მონება|Translit=monebad
-12	განცდად	განცდა	VERB	V_Masd_Adv	Case=All|VerbForm=Vnoun	11	conj	11:conj	LMSeg:განცდა|Translit=gancdad
+11	მონებად	მონება	VERB	V_Pv_Masd_Adv	Case=All|VerbForm=Vnoun	6	xcomp	6:xcomp	LMSeg:მონება|Translit=monebad
+12	განცდად	განცდა	VERB	V_Pv_Masd_Adv	Case=All|VerbForm=Vnoun	11	conj	11:conj	LMSeg:განცდა|Translit=gancdad
 13	ლევიტელთა	ლევიტელი	PROPN	N_Prop_Obl_Pl	Case=Gen|Number=Plur|NameType=Nat	12	obj	12:obj	LMSeg:ლევიტელ[ი]|Translit=leviṭelta
 14	მათ	იგი	PRON	Pron_Dem_Dat_Pl	Case=Dat|Number=Plur|PronType=Dem	13	det	13:det	LMSeg:იგი|Translit=mat
 15	და	და	CCONJ	Cj_Coord	_	16	cc	16:cc	LMSeg:და|Translit=da

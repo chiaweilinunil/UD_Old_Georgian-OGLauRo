@@ -698,7 +698,7 @@
 13	მეჰერდ	მეჰერი	PROPN	N_Prop_Adv_Sg	Case=All|Number=Sing|NameType=Giv	5	conj	5:conj	LMSeg:მეჰერ[ი]|Translit=meherd|SpaceAfter=No
 14	,	,	PUNCT	Punct_Comma	_	17	punct	17:punct	LMSeg:,
 15	და	და	CCONJ	Cj_Coord	_	17	cc	17:cc	LMSeg:და|Translit=da
-16	ვერ	ვერ	ADV	Adv_Neg	Polarity=Neg	17	advmod	17:advmod	LMSeg:ვერ|Translit=ver
+16	ვერ	ვერ	ADV	Adv_Neg_Pot	Polarity=Neg	17	advmod	17:advmod	LMSeg:ვერ|Translit=ver
 17	შეუძლეს	შეძლება	VERB	V_Act_Aor_S:3Pl_IO:3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Person[iobj]=3|Tense=Aor|VerbForm=Fin	3	conj	3:conj	LMSeg:შე·ძლება|Translit=šeuʒles
 18	თხრობად	თხრობა	NOUN	N_Adv_Sg	Case=Adv|Number=Sing	17	xcomp	17:xcomp	LMSeg:თხრობა|Translit=txrobad
 19	სახელთა	სახელი	NOUN	N_Obl_Pl	Case=Dat|Number=Plur	18	obj	18:obj	LMSeg:სახელ[ი]|Translit=saxelta

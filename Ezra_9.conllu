@@ -14,7 +14,7 @@
 
 # sent_id = 9_1_2
 # text = არა განეშოვრა ერი იგი ისრაელსაჲ და მღდელნი იგი და ლევიტელნი ერისა მისგან და ქუეყანისა, რომელ განშოვრებულ არიან მათგან:
-1	არა	არა	PART	Part_Neg	Polarity=Neg	2	advmod	2:advmod	LMSeg:არა|Translit=ara
+1	არა	არა	ADV	Adv_Neg	Polarity=Neg	2	advmod	2:advmod	LMSeg:არა|Translit=ara
 2	განეშოვრა	განშოვრება	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:გან·შოვრება|Translit=ganešovra
 3	ერი	ერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	nsubj	2:nsubj	LMSeg:ერ[ი]|Translit=eri
 4	იგი	იგი	PRON	Pron_Dem_Nom_Sg	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	LMSeg:იგი|Translit=igi
@@ -160,7 +160,7 @@
 5	მგლოვარედ	მგლოვარე	ADV	Adv	Case=Adv	3	advmod	3:advmod	LMSeg:მგლოვარე|Translit=mglovared
 6	ვიდრე	ვიდრე	ADP	Prep	AdpType=Prep	7	case	7:case	LMSeg:ვიდრე|Translit=vidre
 7-8	მოწევნადმდე	_	_	_	_	_	_	_	Translit=moc̣evnadmde
-7	მოწევნად	მოწევნა	VERB	V_Masd_Adv	Case=Adv|VerbForm=Vnoun	3	obl	3:obl	LMSeg:მო·წევნა
+7	მოწევნად	მოწევნა	VERB	V_Pv_Masd_Adv	Case=Adv|VerbForm=Vnoun	3	obl	3:obl	LMSeg:მო·წევნა
 8	მდე	მდე	ADP	Post	AdpType=Post|Case=Adv	7	case	7:case	LMSeg:მდე
 9	შესაწირავისა	შესაწირავი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	7	nmod	7:nmod	LMSeg:შესაწირავ[ი]|Translit=šesac̣iravisa
 10	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	9	det	9:det	LMSeg:იგი|Translit=mis
@@ -372,7 +372,7 @@
 6	მონებასა	მონება	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	10	obl	10:obl	LMSeg:მონება|Translit=monebasa
 7	შინა	შინა	ADP	Post	AdpType=Post|Case=Dat	6	case	6:case	LMSeg:შინა|Translit=šina
 8	ჩუენსა	ჩუენი	PRON	Pron_Poss_1Pl_Dat_Sg	Case=Dat|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	6:nmod	LMSeg:ჩუენი|Translit=čuensa
-9	არა	არა	PART	Part_Neg	Polarity=Neg	10	advmod	10:advmod	LMSeg:არა|Translit=ara
+9	არა	არა	ADV	Adv_Neg	Polarity=Neg	10	advmod	10:advmod	LMSeg:არა|Translit=ara
 10	დაგუთხიენ	დათხევა	VERB	V_Act_Aor_Pv_S:2Sg_O:1Pl	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Aor|VerbForm=Fin	0	root	0:root	LMSeg:და·ტევება|Translit=dagutxien
 11	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl	Case=Dat|Number=Plur|Person=1|PronType=Prs	10	obj	10:obj	LMSeg:ჩუენ|Translit=čuen
 12	,	,	PUNCT	Punct_Comma	_	13	punct	13:punct	LMSeg:,
@@ -390,19 +390,19 @@
 24	მეფისა	მეფე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	19	obl	19:obl	LMSeg:მეფე|Translit=mepisa
 25	მის	იგი	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	24	det	24:det	LMSeg:იგი|Translit=mis
 26	სპარსთაჲსა	სპარსი	PROPN	N_Prop_Obl_Pl_Gen_Sg	Case=Gen|Case[sauf]=Gen|Number=Plur|Number[sauf]=Sing|NameType=Nat	24	nmod	24:nmod	LMSeg:სპარს[ი]|Translit=sparstayisa
-27	მოცემად	მოცემა	VERB	V_Masd	Case=Adv	19	advcl	19:advcl	LMSeg:მო·ცემა|Translit=mocemad
+27	მოცემად	მოცემა	VERB	V_Pv_Masd_Adv	Case=Adv	19	advcl	19:advcl	LMSeg:მო·ცემა|Translit=mocemad
 28	ჩუენდა	ჩუენ	PRON	Pron_Pers_1Pl_Adv	Case=Adv|Number=Plur|Person=1|PronType=Prs	27	iobj	27:iobj	LMSeg:ჩუენ|Translit=čuenda
 29	მაცხოვარებაჲ	მაცხოვარება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	27	obj	27:obj	LMSeg:მაცხოვარება|Translit=macxovarebay
 30	შენი	შენი	PRON	Pron_Poss_2Sg_Nom_Sg	Case=Nom|Number=Sing|Person=2|Poss=Yes|PronType=Prs	29	nmod	29:nmod	LMSeg:შენი|Translit=šeni
 31	და	და	CCONJ	Cj_Coord	_	32	cc	32:cc	LMSeg:და|Translit=da
-32	აღმაღლებად	აღმაღლება	VERB	V_Masd	Case=Adv	27	conj	27:conj	LMSeg:აღ·მაღლება|Translit=agmaglebad
+32	აღმაღლებად	აღმაღლება	VERB	V_Pv_Masd_Adv	Case=Adv	27	conj	27:conj	LMSeg:აღ·მაღლება|Translit=agmaglebad
 33	და	და	CCONJ	Cj_Coord	_	34	cc	34:cc	LMSeg:და|Translit=da
-34	აღშენებად	აღშენება	VERB	V_Masd_Adv	Case=Adv	32	conj	32:conj	LMSeg:აღ·შენება|Translit=agšenebad
+34	აღშენებად	აღშენება	VERB	V_Pv_Masd_Adv	Case=Adv	32	conj	32:conj	LMSeg:აღ·შენება|Translit=agšenebad
 35	მოოჴრებულისა	მოოჴრება	VERB	V_PastPart_Gen_Sg	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	37	acl	37:acl	LMSeg:მო·ოჴრება|Translit=mooqrebulisa
 36	ამის	ესე	PRON	Pron_Dem_Gen_Sg	Case=Gen|Number=Sing|PronType=Dem	37	det	37:det	LMSeg:ესე|Translit=amis
 37	უდაბნოჲსა	უდაბნო	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	34	obj	34:obj	LMSeg:უდაბნო|Translit=udabnoysa
 38	და	და	CCONJ	Cj_Coord	_	39	cc	39:cc	LMSeg:და|Translit=da
-39	მოზღუდვად	მოზღუდვა	VERB	V_Masd_Adv	Case=Adv	27	conj	27:conj	LMSeg:მო·ზღუდვა|Translit=mozgudvad
+39	მოზღუდვად	მოზღუდვა	VERB	V_Pv_Masd_Adv	Case=Adv	27	conj	27:conj	LMSeg:მო·ზღუდვა|Translit=mozgudvad
 40	სიძნელე	სიძნელე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	39	obj	39:obj	LMSeg:სიძნელე|Translit=siʒnele
 41	იუდაჲსი	იუდა	PROPN	N_Prop_Gen_Sg	Case=Gen|Number=Sing|NameType=Giv	40	nmod	40:nmod	LMSeg:იუდა|Translit=iudaysi
 42	და	და	CCONJ	Cj_Coord	_	43	cc	43:cc	LMSeg:და|Translit=da
@@ -599,7 +599,7 @@
 14	ქუეყანისათა	ქუეყანა	NOUN	N_Gen_Sg_Obl_Pl	Case=Gen|Case[sauf]=Gen|Number=Sing|Number[sauf]=Plur	12	nmod	12:nmod	LMSeg:ქუეყანა|Translit=kueq̇anisata
 15	,	,	PUNCT	Punct_Comma	_	18	punct	18:punct	LMSeg:,
 16	და	და	CCONJ	Cj_Coord	_	18	cc	18:cc	LMSeg:და|Translit=da
-17	არა	არა	PART	Part_Neg	Polarity=Neg	18	advmod	18:advmod	LMSeg:არა|Translit=ara
+17	არა	არა	ADV	Adv_Neg	Polarity=Neg	18	advmod	18:advmod	LMSeg:არა|Translit=ara
 18	განჰრისხენ	განრისხება	VERB	V_Pass_Aor_Pv_S:2Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Aor|VerbForm=Fin	3	conj	3:conj	LMSeg:გან·რისხება|Translit=ganhrisxen
 19	ჩუენ	ჩუენ	PRON	Pron_Pers_1Pl_Dat	Case=Dat|Number=Plur|Person=1|PronType=Prs	18	obl	18:obl	LMSeg:ჩუენ|Translit=čuen
 20	ზედა	ზედა	ADP	Post	AdpType=Post	19	case	19:case	LMSeg:ზედა|Translit=zeda
@@ -608,7 +608,7 @@
 23	მოაქამდე	მოაქამდე	ADV	Adv	_	18	advmod	18:advmod	LMSeg:მოაქამდე|Translit=moakamde
 24	,	,	PUNCT	Punct_Comma	_	27	punct	27:punct	LMSeg:,
 25	ვიდრემდის	ვიდრემდის	SCONJ	Conj_Sub	_	27	mark	27:mark	LMSeg:ვიდრემდის|Translit=vidremdis
-26	არა	არა	PART	Part_Neg	Polarity=Neg	27	advmod	27:advmod	LMSeg:არა|Translit=ara
+26	არა	არა	ADv	Adv_Neg	Polarity=Neg	27	advmod	27:advmod	LMSeg:არა|Translit=ara
 27	დაშთეს	დაშთომა	VERB	V_Act_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Aor|VerbForm=Fin	18	advcl	18:advcl	LMSeg:დაშთომა|Translit=daštes
 28	ძლიერი	ძლიერი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	27	nsubj	27:nsubj	LMSeg:ძლიერ[ი]|Translit=ʒlieri
 29	და	და	CCONJ	Cj_Coord	_	30	cc	30:cc	LMSeg:და|Translit=da
@@ -643,7 +643,7 @@
 15	შენდამი	შენდამი	PRON	Pron_Pers_2Sg_Adv	Case=All|Number=Sing|Person=2|PronType=Prs	14	obl	14:obl	LMSeg:შენ|Translit=šendami
 16	,	,	PUNCT	Punct_Comma	_	20	punct	20:punct	LMSeg:,
 17	და	და	CCONJ	Cj_Coord	_	20	cc	20:cc	LMSeg:და|Translit=da
-18	არა	არა	PART	Part_Neg	Polarity=Neg	20	advmod	20:advmod	LMSeg:არა|Translit=ara
+18	არა	არა	ADV	Adv_Neg	Polarity=Neg	20	advmod	20:advmod	LMSeg:არა|Translit=ara
 19	მოასრულე	მოსრულება	VERB	V_Act_Pv_AV_Aor_S:2Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Aor|VerbForm=Fin	7	conj	7:conj	LMSeg:მო·სრულება|Translit=moasrule
 20	ნათესავი	ნათესავი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	19	obj	19:obj	LMSeg:ნათესავ[ი]|Translit=natesavi
 21	ჩუენი	ჩუენი	PRON	Pron_Poss_1Pl_Nom_Sg	Case=Nom|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod	20:nmod	LMSeg:ჩუენ[ი]|Translit=čueni
@@ -682,7 +682,7 @@
 14	შინა	შინა	ADP	Post	AdpType=Post	13	case	13:case	LMSeg:შინა|Translit=šina
 15	ჩუენთა	ჩუენი	PRON	Pron_Poss_1Pl_Dat_Pl	Case=Dat|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod	13:nmod	LMSeg:ჩუენ[ი]|Translit=čuenta
 16	და	და	CCONJ	Cj_Coord	_	19	cc	19:cc	LMSeg:და|Translit=da
-17	ვერღარა	ვერღარა	PART	Part_Neg	Polarity=Neg	19	advmod	19:advmod	LMSeg:ვერღარა|Translit=vergara
+17	ვერღარა	ვერღარა	ADV	Adv_Neg_Pot	Polarity=Neg	19	advmod	19:advmod	LMSeg:ვერღარა|Translit=vergara
 18	შემძლებელ	შემძლებელი	ADJ	A_Abs_Sg	Case=Nom|Number=Sing	19	xcomp	19:xcomp	LMSeg:შემძლებელ[ი]|Translit=šemʒlebel
 19	ვართ	ყოფა	VERB	V_Act_Pres_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|VerbForm=Fin	6	conj	6:conj	LMSeg:ყოფა|Translit=vart
 20	დადგომად	დადგომა	VERB	V_Masd_Adv	Case=Adv	18	advcl	18:advcl	LMSeg:და·დგომა|Translit=dadgomad
