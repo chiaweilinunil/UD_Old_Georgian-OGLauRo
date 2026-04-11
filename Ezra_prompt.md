@@ -28,7 +28,7 @@ Extract lemmas using the National Parliamentary Library of Georgia's Old Georgia
 For UPOS=VERB, XPOS should have this format V_[voice]_[mood]_[tense]_[preverb]_[version]_[S:3Sg]_[O:3Sg]_[IO:3Sg]
 
 ## Example 
-
+```
 # sentence_id = 1_1
 # text = პირველსა მას წელსა კჳროს მეფისა სპარსთაჲსა, აღსრულებასა სიტყჳსა უფლისაჲსა პირითა იერემია წინაწარმეტყუელისაჲთა განაღჳძა უფალმან სული კჳროსისი, მეფისა სპარსთაჲსაჲ, და მისცა ბრძანებაჲ მცნებისაჲ ყოველსა საშარავანდედოსა თჳსსა და მიწერა ყოველთა მიმართ სახე ესე:
 1	პირველსა	პირველი	ADJ	A_Ord_Dat_Sg	Case=Dat|Number=Sing|NumType=Ord	3	amod	3:amod	LMSeg:პირველ[ი]|Translit=pirvelsa
@@ -347,3 +347,4 @@ For UPOS=VERB, XPOS should have this format V_[voice]_[mood]_[tense]_[preverb]_[
 16	ბაბილონით	ბაბილონი	PROPN	N_Prop_Ins_Sg	Case=Ins|Number=Sing|NameType=Geo	13	obl	13:obl	LMSeg:ბაბილონ[ი]|Translit=babilonit
 17	იერუსალემდ	იერუსალემი	PROPN	N_Prop_Adv_Sg	Case=All|Number=Sing|NameType=Geo	13	obl	13:obl	LMSeg:იერუსალემ[ი]|Translit=ierusalemd
 18	.	.	PUNCT	Punct_FullStop	_	3	punct	3:punct	LMSeg:.
+```
