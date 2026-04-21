@@ -7,6 +7,9 @@ A [Universal Dependencies](https://universaldependencies.org/) treebank for **Ol
 - **`Ezra.conllu`** — Dependency-annotated sentences from the Book of Ezra in the Oshki Bible, following UD annotation conventions.
 - **`Ezra_prompt.md`** — The prompting template used to guide LLM-assisted annotation.
 
+## Acknowledgement
+We are grateful to Dr. Paul Meurer for his discussion and guidance and to Prof. Dr. Jost Gippert for generously making the Old Georgian corpus available online on [TITUS](https://titus.uni-frankfurt.de/texte/etcs/cauc/ageo/at/oskijer/oskij.htm)
+
 ## License
 
 This treebank is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0). 
