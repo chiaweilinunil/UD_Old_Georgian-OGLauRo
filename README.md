@@ -25,5 +25,6 @@ If you use this treebank, please cite the repository as follows:
   year         = {2026},
   url          = {https://github.com/chiaweilinunil/UD_Old_Georgian-OGLauRo},
   license      = {CC BY-NC-SA 4.0},
+  doi          = {10.5281/zenodo.19616030}
 }
 ```
